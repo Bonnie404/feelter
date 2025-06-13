@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.000320] (config_utilities) JobQueued: {'identifier': 'config_utilities', 'dependencies': OrderedDict()}
+[0.000386] (dynamic_slam_interfaces) JobQueued: {'identifier': 'dynamic_slam_interfaces', 'dependencies': OrderedDict()}
+[0.000406] (dynosam) JobQueued: {'identifier': 'dynosam', 'dependencies': OrderedDict()}
+[0.000423] (zed_msgs) JobQueued: {'identifier': 'zed_msgs', 'dependencies': OrderedDict()}
+[0.000461] (dynosam_ros) JobQueued: {'identifier': 'dynosam_ros', 'dependencies': OrderedDict([('dynamic_slam_interfaces', '/home/bonnie/DynOSAM/src/install/dynamic_slam_interfaces'), ('dynosam', '/home/bonnie/DynOSAM/src/install/dynosam')])}
+[0.000483] (dynosam_utils) JobQueued: {'identifier': 'dynosam_utils', 'dependencies': OrderedDict([('dynosam', '/home/bonnie/DynOSAM/src/install/dynosam')])}
+[0.000522] (rviz_dynamic_slam_plugins) JobQueued: {'identifier': 'rviz_dynamic_slam_plugins', 'dependencies': OrderedDict([('dynamic_slam_interfaces', '/home/bonnie/DynOSAM/src/install/dynamic_slam_interfaces')])}
+[0.000562] (dynamic_slam_interfaces) JobStarted: {'identifier': 'dynamic_slam_interfaces'}
+[0.009444] (dynosam) JobStarted: {'identifier': 'dynosam'}
+[0.013797] (config_utilities) JobStarted: {'identifier': 'config_utilities'}
+[0.017155] (zed_msgs) JobStarted: {'identifier': 'zed_msgs'}
+[0.021003] (dynamic_slam_interfaces) JobProgress: {'identifier': 'dynamic_slam_interfaces', 'progress': 'cmake'}
+[0.023019] (dynamic_slam_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bonnie/DynOSAM/src/dynamic_slam_interfaces', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja', '-DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/dynamic_slam_interfaces'], 'cwd': '/home/bonnie/DynOSAM/src/build/dynamic_slam_interfaces', 'env': OrderedDict([('TERM_SESSION_ID', 'd5065b60-fdd2-4a0b-b766-8397f1c08fa1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bonnie'), ('ANTHROPIC_API', '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'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/bonnie'), ('OLDPWD', '/home/bonnie/DynOSAM'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('IJ_RESTARTER_LOG', '/home/bonnie/.cache/JetBrains/CLion2025.1/log/restarter.log'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bonnie'), ('NAME', '_'), ('WSL_INTEROP', '/run/WSL/2068_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '58366'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/VulkanSDK/1.3.275.0/Bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/a/libs:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Program Files/Go/bin:/mnt/c/Users/bonnie/esp/v5.2.1/esp-idf/components:/mnt/a/M5StickC-Plus/src:/mnt/d/tu_wien/animation/CommonFiles_VS_2019/CommonFiles_VS_2019:/mnt/a/gecko/geckodriver.exe:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/bonnie/mingw64/bin:/mnt/a/everyday_scripts/command_line:/mnt/c/Program Files/Process Lasso/:/mnt/a/open3d-devel-windows-amd64-0.19.0/open3d-devel-windows-amd64-0.19.0/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/a/vcpkg:/Docker/host/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/eID_klient/:/mnt/c/Program Files (x86)/eID_klient/redist_x64/:/mnt/c/Program Files/dotnet/:/mnt/a/Python/Scripts/:/mnt/a/Python/:/mnt/c/Users/bonnie/.local/bin:/mnt/c/Users/bonnie/.cargo/bin:/mnt/a/emsdk:/mnt/a/emsdk/upstream/emscripten:/mnt/c/Users/bonnie/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bonnie/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/bonnie/anaconda3/condabin:/mnt/c/ProgramData/anaconda3/condabin:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/bonnie/go/bin:/mnt/c/Program Files/Go/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/tools:/mnt/a/Microsoft VS Code/bin:/mnt/c/Users/bonnie/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/bonnie/AppData/Local/Yarn/bin:/mnt/c/Users/bonnie/.dotnet/tools:/mnt/a/cursor/resources/app/bin:/snap/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/bin'), ('WT_SESSION', 'd78ea64b-52d8-487b-804b-042b492d4c90'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'CLion-restart_TIME125287551'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bonnie/DynOSAM/src/build/dynamic_slam_interfaces'), ('ENABLE_IDE_INTEGRATION', 'true'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.026280] (dynosam) JobProgress: {'identifier': 'dynosam', 'progress': 'cmake'}
+[0.028696] (dynosam) Command: {'cmd': ['/usr/bin/cmake', '/home/bonnie/DynOSAM/src/dynosam', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja', '-DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/dynosam'], 'cwd': '/home/bonnie/DynOSAM/src/build/dynosam', 'env': OrderedDict([('TERM_SESSION_ID', 'd5065b60-fdd2-4a0b-b766-8397f1c08fa1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bonnie'), ('ANTHROPIC_API', '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'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/bonnie'), ('OLDPWD', '/home/bonnie/DynOSAM'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('IJ_RESTARTER_LOG', '/home/bonnie/.cache/JetBrains/CLion2025.1/log/restarter.log'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bonnie'), ('NAME', '_'), ('WSL_INTEROP', '/run/WSL/2068_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '58366'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/VulkanSDK/1.3.275.0/Bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/a/libs:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Program Files/Go/bin:/mnt/c/Users/bonnie/esp/v5.2.1/esp-idf/components:/mnt/a/M5StickC-Plus/src:/mnt/d/tu_wien/animation/CommonFiles_VS_2019/CommonFiles_VS_2019:/mnt/a/gecko/geckodriver.exe:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/bonnie/mingw64/bin:/mnt/a/everyday_scripts/command_line:/mnt/c/Program Files/Process Lasso/:/mnt/a/open3d-devel-windows-amd64-0.19.0/open3d-devel-windows-amd64-0.19.0/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/a/vcpkg:/Docker/host/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/eID_klient/:/mnt/c/Program Files (x86)/eID_klient/redist_x64/:/mnt/c/Program Files/dotnet/:/mnt/a/Python/Scripts/:/mnt/a/Python/:/mnt/c/Users/bonnie/.local/bin:/mnt/c/Users/bonnie/.cargo/bin:/mnt/a/emsdk:/mnt/a/emsdk/upstream/emscripten:/mnt/c/Users/bonnie/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bonnie/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/bonnie/anaconda3/condabin:/mnt/c/ProgramData/anaconda3/condabin:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/bonnie/go/bin:/mnt/c/Program Files/Go/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/tools:/mnt/a/Microsoft VS Code/bin:/mnt/c/Users/bonnie/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/bonnie/AppData/Local/Yarn/bin:/mnt/c/Users/bonnie/.dotnet/tools:/mnt/a/cursor/resources/app/bin:/snap/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/bin'), ('WT_SESSION', 'd78ea64b-52d8-487b-804b-042b492d4c90'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'CLion-restart_TIME125287551'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bonnie/DynOSAM/src/build/dynosam'), ('ENABLE_IDE_INTEGRATION', 'true'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029972] (config_utilities) JobProgress: {'identifier': 'config_utilities', 'progress': 'cmake'}
+[0.031897] (config_utilities) Command: {'cmd': ['/usr/bin/cmake', '/home/bonnie/DynOSAM/src/config_utilities/config_utilities', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja', '-DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/config_utilities'], 'cwd': '/home/bonnie/DynOSAM/src/build/config_utilities', 'env': OrderedDict([('TERM_SESSION_ID', 'd5065b60-fdd2-4a0b-b766-8397f1c08fa1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bonnie'), ('ANTHROPIC_API', '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'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/bonnie'), ('OLDPWD', '/home/bonnie/DynOSAM'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('IJ_RESTARTER_LOG', '/home/bonnie/.cache/JetBrains/CLion2025.1/log/restarter.log'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bonnie'), ('NAME', '_'), ('WSL_INTEROP', '/run/WSL/2068_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '58366'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/VulkanSDK/1.3.275.0/Bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/a/libs:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Program Files/Go/bin:/mnt/c/Users/bonnie/esp/v5.2.1/esp-idf/components:/mnt/a/M5StickC-Plus/src:/mnt/d/tu_wien/animation/CommonFiles_VS_2019/CommonFiles_VS_2019:/mnt/a/gecko/geckodriver.exe:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/bonnie/mingw64/bin:/mnt/a/everyday_scripts/command_line:/mnt/c/Program Files/Process Lasso/:/mnt/a/open3d-devel-windows-amd64-0.19.0/open3d-devel-windows-amd64-0.19.0/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/a/vcpkg:/Docker/host/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/eID_klient/:/mnt/c/Program Files (x86)/eID_klient/redist_x64/:/mnt/c/Program Files/dotnet/:/mnt/a/Python/Scripts/:/mnt/a/Python/:/mnt/c/Users/bonnie/.local/bin:/mnt/c/Users/bonnie/.cargo/bin:/mnt/a/emsdk:/mnt/a/emsdk/upstream/emscripten:/mnt/c/Users/bonnie/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bonnie/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/bonnie/anaconda3/condabin:/mnt/c/ProgramData/anaconda3/condabin:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/bonnie/go/bin:/mnt/c/Program Files/Go/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/tools:/mnt/a/Microsoft VS Code/bin:/mnt/c/Users/bonnie/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/bonnie/AppData/Local/Yarn/bin:/mnt/c/Users/bonnie/.dotnet/tools:/mnt/a/cursor/resources/app/bin:/snap/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/bin'), ('WT_SESSION', 'd78ea64b-52d8-487b-804b-042b492d4c90'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'CLion-restart_TIME125287551'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bonnie/DynOSAM/src/build/config_utilities'), ('ENABLE_IDE_INTEGRATION', 'true'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037491] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'cmake'}
+[0.040653] (zed_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/bonnie/DynOSAM/src/zed-ros2-interfaces', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja', '-DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/zed_msgs'], 'cwd': '/home/bonnie/DynOSAM/src/build/zed_msgs', 'env': OrderedDict([('TERM_SESSION_ID', 'd5065b60-fdd2-4a0b-b766-8397f1c08fa1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bonnie'), ('ANTHROPIC_API', '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'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/bonnie'), ('OLDPWD', '/home/bonnie/DynOSAM'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('IJ_RESTARTER_LOG', '/home/bonnie/.cache/JetBrains/CLion2025.1/log/restarter.log'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bonnie'), ('NAME', '_'), ('WSL_INTEROP', '/run/WSL/2068_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '58366'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/VulkanSDK/1.3.275.0/Bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/a/libs:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Program Files/Go/bin:/mnt/c/Users/bonnie/esp/v5.2.1/esp-idf/components:/mnt/a/M5StickC-Plus/src:/mnt/d/tu_wien/animation/CommonFiles_VS_2019/CommonFiles_VS_2019:/mnt/a/gecko/geckodriver.exe:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/bonnie/mingw64/bin:/mnt/a/everyday_scripts/command_line:/mnt/c/Program Files/Process Lasso/:/mnt/a/open3d-devel-windows-amd64-0.19.0/open3d-devel-windows-amd64-0.19.0/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/a/vcpkg:/Docker/host/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files (x86)/eID_klient/:/mnt/c/Program Files (x86)/eID_klient/redist_x64/:/mnt/c/Program Files/dotnet/:/mnt/a/Python/Scripts/:/mnt/a/Python/:/mnt/c/Users/bonnie/.local/bin:/mnt/c/Users/bonnie/.cargo/bin:/mnt/a/emsdk:/mnt/a/emsdk/upstream/emscripten:/mnt/c/Users/bonnie/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bonnie/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/bonnie/anaconda3/condabin:/mnt/c/ProgramData/anaconda3/condabin:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/bonnie/go/bin:/mnt/c/Program Files/Go/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/tools:/mnt/a/Microsoft VS Code/bin:/mnt/c/Users/bonnie/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/bonnie/AppData/Local/Yarn/bin:/mnt/c/Users/bonnie/.dotnet/tools:/mnt/a/cursor/resources/app/bin:/snap/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/bin'), ('WT_SESSION', 'd78ea64b-52d8-487b-804b-042b492d4c90'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'CLion-restart_TIME125287551'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bonnie/DynOSAM/src/build/zed_msgs'), ('ENABLE_IDE_INTEGRATION', 'true'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098909] (-) TimerEvent: {}
+[0.199210] (-) TimerEvent: {}
+[0.260867] (dynosam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.261199] (zed_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.263646] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.264020] (config_utilities) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299320] (-) TimerEvent: {}
+[0.399628] (-) TimerEvent: {}
+[0.499984] (-) TimerEvent: {}
+[0.600399] (-) TimerEvent: {}
+[0.700844] (-) TimerEvent: {}
+[0.801233] (-) TimerEvent: {}
+[0.901546] (-) TimerEvent: {}
+[0.914815] (zed_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.915100] (dynosam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.001665] (-) TimerEvent: {}
+[1.056722] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.078658] (config_utilities) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.101783] (-) TimerEvent: {}
+[1.202108] (-) TimerEvent: {}
+[1.302428] (-) TimerEvent: {}
+[1.402840] (-) TimerEvent: {}
+[1.450638] (zed_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.470015] (dynosam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.502976] (-) TimerEvent: {}
+[1.519810] (config_utilities) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.523046] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.603140] (-) TimerEvent: {}
+[1.627471] (zed_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.633210] (zed_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.633527] (zed_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.633964] (zed_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.636539] (zed_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.664844] (dynosam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.670252] (dynosam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.670503] (dynosam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.670743] (dynosam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.673956] (dynosam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.701511] (config_utilities) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.703218] (-) TimerEvent: {}
+[1.709316] (config_utilities) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.709748] (config_utilities) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.709905] (config_utilities) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.713074] (config_utilities) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.713757] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.719949] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.720169] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.720434] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.723420] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.803343] (-) TimerEvent: {}
+[1.850482] (zed_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.857302] (zed_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.857549] (zed_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.857862] (zed_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.862751] (zed_msgs) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.877770] (dynosam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.883480] (dynosam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.883706] (dynosam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.884065] (dynosam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.885866] (dynosam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.903494] (-) TimerEvent: {}
+[1.912188] (config_utilities) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.917914] (config_utilities) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.918171] (config_utilities) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.918462] (config_utilities) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.927627] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.933040] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.933270] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.933629] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.935649] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.953280] (config_utilities) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem system \n'}
+[2.003649] (-) TimerEvent: {}
+[2.075989] (zed_msgs) StdoutLine: {'line': b'-- Found Python3: /home/linuxbrew/.linuxbrew/bin/python3 (found version "3.13.3") found components: Interpreter \n'}
+[2.076272] (dynosam) StdoutLine: {'line': b'-- Found Python3: /home/linuxbrew/.linuxbrew/bin/python3 (found version "3.13.3") found components: Interpreter \n'}
+[2.090791] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found Python3: /home/linuxbrew/.linuxbrew/bin/python3 (found version "3.13.3") found components: Interpreter \n'}
+[2.103775] (-) TimerEvent: {}
+[2.204075] (-) TimerEvent: {}
+[2.267704] (dynosam) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[2.267984] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.295864] (zed_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.298999] (zed_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>\n'}
+[2.299186] (zed_msgs) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[2.299244] (zed_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[2.304174] (zed_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.304411] (-) TimerEvent: {}
+[2.304539] (zed_msgs) StderrLine: {'line': b'  execute_process(/home/linuxbrew/.linuxbrew/bin/python3\n'}
+[2.304616] (zed_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.304675] (zed_msgs) StderrLine: {'line': b'  /home/bonnie/DynOSAM/src/zed-ros2-interfaces/package.xml\n'}
+[2.304729] (zed_msgs) StderrLine: {'line': b'  /home/bonnie/DynOSAM/src/build/zed_msgs/ament_cmake_core/package.cmake)\n'}
+[2.304781] (zed_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[2.304884] (zed_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.304955] (zed_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.305103] (zed_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:42 (ament_package_xml)\n'}
+[2.305209] (zed_msgs) StderrLine: {'line': b'  CMakeLists.txt:61 (ament_auto_find_build_dependencies)\n'}
+[2.305295] (zed_msgs) StderrLine: {'line': b'\n'}
+[2.305391] (zed_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.305479] (zed_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.305717] (zed_msgs) StdoutLine: {'line': b'See also "/home/bonnie/DynOSAM/src/build/zed_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.313110] (zed_msgs) CommandEnded: {'returncode': 1}
+[2.344190] (zed_msgs) JobEnded: {'identifier': 'zed_msgs', 'rc': 1}
+[2.404555] (-) TimerEvent: {}
+[2.504859] (-) TimerEvent: {}
+[2.517054] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.524845] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.536976] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.559357] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.582026] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.604974] (-) TimerEvent: {}
+[2.605307] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.651900] (dynosam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.677146] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.692775] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[2.705136] (-) TimerEvent: {}
+[2.761401] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.765511] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.805255] (-) TimerEvent: {}
+[2.847175] (dynosam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.847421] (dynosam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.905370] (-) TimerEvent: {}
+[3.005770] (-) TimerEvent: {}
+[3.022761] (dynosam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.023908] (dynosam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.105903] (-) TimerEvent: {}
+[3.206419] (-) TimerEvent: {}
+[3.307012] (-) TimerEvent: {}
+[3.325713] (dynosam) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found version "11.8") \n'}
+[3.328602] (dynosam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.407177] (-) TimerEvent: {}
+[3.425164] (dynosam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.429527] (dynosam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.436921] (dynosam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.447737] (dynosam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.461055] (dynosam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.496573] (dynosam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.498389] (dynosam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.507338] (-) TimerEvent: {}
+[3.607812] (-) TimerEvent: {}
+[3.708318] (-) TimerEvent: {}
+[3.808899] (-) TimerEvent: {}
+[3.909461] (-) TimerEvent: {}
+[4.009866] (-) TimerEvent: {}
+[4.017753] (config_utilities) StderrLine: {'line': b'\x1b[33mCMake Warning at cmake/OptionalPackage.cmake:19 (message):\n'}
+[4.017971] (config_utilities) StderrLine: {'line': b'  roscpp not found.  Either disable or install the package\n'}
+[4.018032] (config_utilities) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.018084] (config_utilities) StderrLine: {'line': b'  CMakeLists.txt:21 (find_optional)\n'}
+[4.018132] (config_utilities) StderrLine: {'line': b'\n'}
+[4.018203] (config_utilities) StderrLine: {'line': b'\x1b[0m\n'}
+[4.031303] (config_utilities) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[4.031692] (config_utilities) StdoutLine: {'line': b"-- Checking for module 'libglog'\n"}
+[4.044503] (config_utilities) StdoutLine: {'line': b'--   Found libglog, version 0.4.0\n'}
+[4.071832] (config_utilities) StdoutLine: {'line': b'-- Eigen features enabled: TRUE\n'}
+[4.072000] (config_utilities) StdoutLine: {'line': b'-- ROS features enabled:   FALSE\n'}
+[4.072098] (config_utilities) StdoutLine: {'line': b'-- glog features enabled:  TRUE\n'}
+[4.109996] (-) TimerEvent: {}
+[4.210432] (-) TimerEvent: {}
+[4.310912] (-) TimerEvent: {}
+[4.411324] (-) TimerEvent: {}
+[4.511705] (-) TimerEvent: {}
+[4.612154] (-) TimerEvent: {}
+[4.712606] (-) TimerEvent: {}
+[4.813080] (-) TimerEvent: {}
+[4.826546] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.913198] (-) TimerEvent: {}
+[5.013538] (-) TimerEvent: {}
+[5.113941] (-) TimerEvent: {}
+[5.214272] (-) TimerEvent: {}
+[5.314669] (-) TimerEvent: {}
+[5.415064] (-) TimerEvent: {}
+[5.491298] (dynosam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.515190] (-) TimerEvent: {}
+[5.527777] (config_utilities) StdoutLine: {'line': b'-- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  \n'}
+[5.544270] (config_utilities) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.569788] (config_utilities) StdoutLine: {'line': b'-- Generating done\n'}
+[5.586673] (config_utilities) StdoutLine: {'line': b'-- Build files have been written to: /home/bonnie/DynOSAM/src/build/config_utilities\n'}
+[5.592204] (config_utilities) JobEnded: {'identifier': 'config_utilities', 'rc': 'SIGINT'}
+[5.615358] (-) TimerEvent: {}
+[5.715807] (-) TimerEvent: {}
+[5.816182] (-) TimerEvent: {}
+[5.916636] (-) TimerEvent: {}
+[6.016975] (-) TimerEvent: {}
+[6.117363] (-) TimerEvent: {}
+[6.217705] (-) TimerEvent: {}
+[6.318136] (-) TimerEvent: {}
+[6.418556] (-) TimerEvent: {}
+[6.518911] (-) TimerEvent: {}
+[6.619262] (-) TimerEvent: {}
+[6.719566] (-) TimerEvent: {}
+[6.819923] (-) TimerEvent: {}
+[6.920260] (-) TimerEvent: {}
+[7.020661] (-) TimerEvent: {}
+[7.022307] (dynamic_slam_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.120788] (-) TimerEvent: {}
+[7.221110] (-) TimerEvent: {}
+[7.321482] (-) TimerEvent: {}
+[7.421902] (-) TimerEvent: {}
+[7.522343] (-) TimerEvent: {}
+[7.622728] (-) TimerEvent: {}
+[7.716600] (dynosam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.722867] (-) TimerEvent: {}
+[7.823181] (-) TimerEvent: {}
+[7.923541] (-) TimerEvent: {}
+[8.023933] (-) TimerEvent: {}
+[8.124332] (-) TimerEvent: {}
+[8.224807] (-) TimerEvent: {}
+[8.325132] (-) TimerEvent: {}
+[8.425487] (-) TimerEvent: {}
+[8.525984] (-) TimerEvent: {}
+[8.626401] (-) TimerEvent: {}
+[8.726824] (-) TimerEvent: {}
+[8.827263] (-) TimerEvent: {}
+[8.927653] (-) TimerEvent: {}
+[9.028024] (-) TimerEvent: {}
+[9.128378] (-) TimerEvent: {}
+[9.228741] (-) TimerEvent: {}
+[9.329099] (-) TimerEvent: {}
+[9.429439] (-) TimerEvent: {}
+[9.529795] (-) TimerEvent: {}
+[9.565306] (dynamic_slam_interfaces) JobEnded: {'identifier': 'dynamic_slam_interfaces', 'rc': 'SIGINT'}
+[9.566443] (dynosam) JobEnded: {'identifier': 'dynosam', 'rc': 'SIGINT'}
+[9.577037] (dynosam_ros) JobSkipped: {'identifier': 'dynosam_ros'}
+[9.577150] (dynosam_utils) JobSkipped: {'identifier': 'dynosam_utils'}
+[9.577200] (rviz_dynamic_slam_plugins) JobSkipped: {'identifier': 'rviz_dynamic_slam_plugins'}
+[9.577243] (-) EventReactorShutdown: {}

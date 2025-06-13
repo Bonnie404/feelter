@@ -1,0 +1,612 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (dynosam_ros) JobQueued: {'identifier': 'dynosam_ros', 'dependencies': OrderedDict()}
+[0.000733] (dynosam_ros) JobStarted: {'identifier': 'dynosam_ros'}
+[0.011456] (dynosam_ros) JobProgress: {'identifier': 'dynosam_ros', 'progress': 'cmake'}
+[0.013781] (dynosam_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/bonnie/DynOSAM/src/dynosam_ros', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja', '-DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/dynosam_ros/install/dynosam_ros'], 'cwd': '/home/bonnie/DynOSAM/src/dynosam_ros/build/dynosam_ros', 'env': OrderedDict([('TERM_SESSION_ID', '0cf7c6a7-22b2-486b-a740-c86cb7bdc399'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bonnie'), ('ANTHROPIC_API', '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'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bonnie'), ('OLDPWD', '/home/bonnie/DynOSAM/src'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bonnie'), ('NAME', '_'), ('WSL_INTEROP', '/run/WSL/319_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '46283'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/home/bonnie/.npm-global/bin:/home/linuxbrew/.linuxbrew/bin:/home/bonnie/local_installs/clion-2025.1.1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/VulkanSDK/1.3.275.0/Bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/bonnie/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/a/libs:/mnt/c/Program Files (x86)/ZED SDK/dependencies/freeglut_2.8/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/glew-1.12.0/x64:/mnt/c/Program Files (x86)/ZED SDK/dependencies/opencv_3.1.0/x64:/mnt/c/Program Files (x86)/ZED SDK/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Program Files/Go/bin:/mnt/c/Users/bonnie/esp/v5.2.1/esp-idf/components:/mnt/a/M5StickC-Plus/src:/mnt/d/tu_wien/animation/CommonFiles_VS_2019/CommonFiles_VS_2019:/mnt/a/gecko/geckodriver.exe:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/bonnie/mingw64/bin:/mnt/a/everyday_scripts/command_line:/mnt/c/Program Files/Process Lasso/:/mnt/a/open3d-devel-windows-amd64-0.19.0/open3d-devel-windows-amd64-0.19.0/bin:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/a/vcpkg:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/a/Python/Scripts/:/mnt/a/Python/:/mnt/c/Users/bonnie/.local/bin:/mnt/c/Users/bonnie/.cargo/bin:/mnt/a/emsdk:/mnt/a/emsdk/upstream/emscripten:/mnt/c/Users/bonnie/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bonnie/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Users/bonnie/anaconda3/condabin:/mnt/c/ProgramData/anaconda3/condabin:/mnt/c/Users/bonnie/go/bin:/mnt/c/ffmpeg/bin:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Users/bonnie/AppData/Local/Android/Sdk/tools:/mnt/a/Microsoft VS Code/bin:/mnt/c/Users/bonnie/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/bonnie/AppData/Local/Yarn/bin:/mnt/c/Users/bonnie/.dotnet/tools:/mnt/a/cursor/resources/app/bin:/snap/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bonnie/DynOSAM/src/dynosam_ros/build/dynosam_ros'), ('ENABLE_IDE_INTEGRATION', 'true'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099848] (-) TimerEvent: {}
+[0.200146] (-) TimerEvent: {}
+[0.300486] (-) TimerEvent: {}
+[0.354403] (dynosam_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400633] (-) TimerEvent: {}
+[0.500983] (-) TimerEvent: {}
+[0.601304] (-) TimerEvent: {}
+[0.701646] (-) TimerEvent: {}
+[0.801974] (-) TimerEvent: {}
+[0.902325] (-) TimerEvent: {}
+[1.002666] (-) TimerEvent: {}
+[1.103027] (-) TimerEvent: {}
+[1.203368] (-) TimerEvent: {}
+[1.303686] (-) TimerEvent: {}
+[1.354649] (dynosam_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.403797] (-) TimerEvent: {}
+[1.504140] (-) TimerEvent: {}
+[1.604465] (-) TimerEvent: {}
+[1.704838] (-) TimerEvent: {}
+[1.805228] (-) TimerEvent: {}
+[1.905571] (-) TimerEvent: {}
+[2.005928] (-) TimerEvent: {}
+[2.093701] (dynosam_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.106048] (-) TimerEvent: {}
+[2.206343] (-) TimerEvent: {}
+[2.306651] (-) TimerEvent: {}
+[2.321775] (dynosam_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.327323] (dynosam_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.327955] (dynosam_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.328948] (dynosam_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.332657] (dynosam_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.406791] (-) TimerEvent: {}
+[2.507105] (-) TimerEvent: {}
+[2.548708] (dynosam_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.554522] (dynosam_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.554770] (dynosam_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.555100] (dynosam_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.561537] (dynosam_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.607297] (-) TimerEvent: {}
+[2.707741] (-) TimerEvent: {}
+[2.764607] (dynosam_ros) StdoutLine: {'line': b'-- Found Python3: /home/linuxbrew/.linuxbrew/bin/python3 (found version "3.13.3") found components: Interpreter \n'}
+[2.807859] (-) TimerEvent: {}
+[2.908178] (-) TimerEvent: {}
+[2.924303] (dynosam_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.008299] (-) TimerEvent: {}
+[3.108633] (-) TimerEvent: {}
+[3.184881] (dynosam_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.189990] (dynosam_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.198081] (dynosam_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.208824] (-) TimerEvent: {}
+[3.211619] (dynosam_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.227570] (dynosam_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.271010] (dynosam_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.273376] (dynosam_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.308996] (-) TimerEvent: {}
+[3.409335] (-) TimerEvent: {}
+[3.509656] (-) TimerEvent: {}
+[3.610019] (-) TimerEvent: {}
+[3.710360] (-) TimerEvent: {}
+[3.810699] (-) TimerEvent: {}
+[3.911118] (-) TimerEvent: {}
+[4.011425] (-) TimerEvent: {}
+[4.111756] (-) TimerEvent: {}
+[4.212321] (-) TimerEvent: {}
+[4.312869] (-) TimerEvent: {}
+[4.413410] (-) TimerEvent: {}
+[4.513974] (-) TimerEvent: {}
+[4.614487] (-) TimerEvent: {}
+[4.714936] (-) TimerEvent: {}
+[4.815417] (-) TimerEvent: {}
+[4.915808] (-) TimerEvent: {}
+[5.016297] (-) TimerEvent: {}
+[5.116968] (-) TimerEvent: {}
+[5.217458] (-) TimerEvent: {}
+[5.319072] (-) TimerEvent: {}
+[5.421254] (-) TimerEvent: {}
+[5.521789] (-) TimerEvent: {}
+[5.622270] (-) TimerEvent: {}
+[5.722717] (-) TimerEvent: {}
+[5.799039] (dynosam_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.822924] (-) TimerEvent: {}
+[5.923238] (-) TimerEvent: {}
+[6.023691] (-) TimerEvent: {}
+[6.124107] (-) TimerEvent: {}
+[6.224673] (-) TimerEvent: {}
+[6.325054] (-) TimerEvent: {}
+[6.425434] (-) TimerEvent: {}
+[6.525794] (-) TimerEvent: {}
+[6.626702] (-) TimerEvent: {}
+[6.728298] (-) TimerEvent: {}
+[6.830210] (-) TimerEvent: {}
+[6.932160] (-) TimerEvent: {}
+[7.034160] (-) TimerEvent: {}
+[7.134881] (-) TimerEvent: {}
+[7.235460] (-) TimerEvent: {}
+[7.335813] (-) TimerEvent: {}
+[7.436202] (-) TimerEvent: {}
+[7.536643] (-) TimerEvent: {}
+[7.637255] (-) TimerEvent: {}
+[7.738132] (-) TimerEvent: {}
+[7.839463] (-) TimerEvent: {}
+[7.940189] (-) TimerEvent: {}
+[8.040845] (-) TimerEvent: {}
+[8.141446] (-) TimerEvent: {}
+[8.242023] (-) TimerEvent: {}
+[8.342708] (-) TimerEvent: {}
+[8.443048] (-) TimerEvent: {}
+[8.543479] (-) TimerEvent: {}
+[8.643842] (-) TimerEvent: {}
+[8.744220] (-) TimerEvent: {}
+[8.820271] (dynosam_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.844412] (-) TimerEvent: {}
+[8.944710] (-) TimerEvent: {}
+[9.045081] (-) TimerEvent: {}
+[9.145470] (-) TimerEvent: {}
+[9.245934] (-) TimerEvent: {}
+[9.346307] (-) TimerEvent: {}
+[9.446693] (-) TimerEvent: {}
+[9.547338] (-) TimerEvent: {}
+[9.647814] (-) TimerEvent: {}
+[9.748334] (-) TimerEvent: {}
+[9.848814] (-) TimerEvent: {}
+[9.949314] (-) TimerEvent: {}
+[10.049665] (-) TimerEvent: {}
+[10.150058] (-) TimerEvent: {}
+[10.250494] (-) TimerEvent: {}
+[10.351058] (-) TimerEvent: {}
+[10.451474] (-) TimerEvent: {}
+[10.551870] (-) TimerEvent: {}
+[10.652932] (-) TimerEvent: {}
+[10.753311] (-) TimerEvent: {}
+[10.853791] (-) TimerEvent: {}
+[10.954379] (-) TimerEvent: {}
+[11.054834] (-) TimerEvent: {}
+[11.155354] (-) TimerEvent: {}
+[11.255768] (-) TimerEvent: {}
+[11.356129] (-) TimerEvent: {}
+[11.456489] (-) TimerEvent: {}
+[11.556972] (-) TimerEvent: {}
+[11.657351] (-) TimerEvent: {}
+[11.757892] (-) TimerEvent: {}
+[11.858402] (-) TimerEvent: {}
+[11.958814] (-) TimerEvent: {}
+[12.059298] (-) TimerEvent: {}
+[12.159772] (-) TimerEvent: {}
+[12.260181] (-) TimerEvent: {}
+[12.360618] (-) TimerEvent: {}
+[12.460974] (-) TimerEvent: {}
+[12.561369] (-) TimerEvent: {}
+[12.661808] (-) TimerEvent: {}
+[12.762923] (-) TimerEvent: {}
+[12.863303] (-) TimerEvent: {}
+[12.964209] (-) TimerEvent: {}
+[13.064723] (-) TimerEvent: {}
+[13.165271] (-) TimerEvent: {}
+[13.265627] (-) TimerEvent: {}
+[13.366023] (-) TimerEvent: {}
+[13.466378] (-) TimerEvent: {}
+[13.566757] (-) TimerEvent: {}
+[13.667125] (-) TimerEvent: {}
+[13.767541] (-) TimerEvent: {}
+[13.867906] (-) TimerEvent: {}
+[13.968321] (-) TimerEvent: {}
+[14.068796] (-) TimerEvent: {}
+[14.169180] (-) TimerEvent: {}
+[14.253646] (dynosam_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.263269] (dynosam_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[14.269331] (-) TimerEvent: {}
+[14.369673] (-) TimerEvent: {}
+[14.469978] (-) TimerEvent: {}
+[14.473634] (dynosam_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[14.474182] (dynosam_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.570148] (-) TimerEvent: {}
+[14.670542] (-) TimerEvent: {}
+[14.700330] (dynosam_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.701195] (dynosam_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.754985] (dynosam_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[14.770719] (-) TimerEvent: {}
+[14.786612] (dynosam_ros) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[14.808728] (dynosam_ros) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[14.826140] (dynosam_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[14.870978] (-) TimerEvent: {}
+[14.943305] (dynosam_ros) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[14.971096] (-) TimerEvent: {}
+[15.071422] (-) TimerEvent: {}
+[15.171720] (-) TimerEvent: {}
+[15.272191] (-) TimerEvent: {}
+[15.372523] (-) TimerEvent: {}
+[15.473001] (-) TimerEvent: {}
+[15.573373] (-) TimerEvent: {}
+[15.673762] (-) TimerEvent: {}
+[15.774268] (-) TimerEvent: {}
+[15.874653] (-) TimerEvent: {}
+[15.975058] (-) TimerEvent: {}
+[16.075416] (-) TimerEvent: {}
+[16.175734] (-) TimerEvent: {}
+[16.276084] (-) TimerEvent: {}
+[16.376418] (-) TimerEvent: {}
+[16.476759] (-) TimerEvent: {}
+[16.577122] (-) TimerEvent: {}
+[16.677456] (-) TimerEvent: {}
+[16.777780] (-) TimerEvent: {}
+[16.878154] (-) TimerEvent: {}
+[16.978546] (-) TimerEvent: {}
+[17.078925] (-) TimerEvent: {}
+[17.179290] (-) TimerEvent: {}
+[17.279642] (-) TimerEvent: {}
+[17.380068] (-) TimerEvent: {}
+[17.480405] (-) TimerEvent: {}
+[17.580737] (-) TimerEvent: {}
+[17.659156] (dynosam_ros) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[17.680855] (-) TimerEvent: {}
+[17.714431] (dynosam_ros) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[17.727576] (dynosam_ros) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[17.758795] (dynosam_ros) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[17.758962] (dynosam_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[17.781010] (-) TimerEvent: {}
+[17.881340] (-) TimerEvent: {}
+[17.981679] (-) TimerEvent: {}
+[18.082053] (-) TimerEvent: {}
+[18.182380] (-) TimerEvent: {}
+[18.282739] (-) TimerEvent: {}
+[18.383049] (-) TimerEvent: {}
+[18.483424] (-) TimerEvent: {}
+[18.583757] (-) TimerEvent: {}
+[18.684104] (-) TimerEvent: {}
+[18.784438] (-) TimerEvent: {}
+[18.884774] (-) TimerEvent: {}
+[18.985101] (-) TimerEvent: {}
+[19.085441] (-) TimerEvent: {}
+[19.185795] (-) TimerEvent: {}
+[19.286130] (-) TimerEvent: {}
+[19.386470] (-) TimerEvent: {}
+[19.486860] (-) TimerEvent: {}
+[19.587214] (-) TimerEvent: {}
+[19.687791] (-) TimerEvent: {}
+[19.788216] (-) TimerEvent: {}
+[19.888662] (-) TimerEvent: {}
+[19.989093] (-) TimerEvent: {}
+[20.089478] (-) TimerEvent: {}
+[20.189800] (-) TimerEvent: {}
+[20.258485] (dynosam_ros) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[20.270779] (dynosam_ros) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[20.289997] (-) TimerEvent: {}
+[20.390283] (-) TimerEvent: {}
+[20.490627] (-) TimerEvent: {}
+[20.590987] (-) TimerEvent: {}
+[20.691304] (-) TimerEvent: {}
+[20.791675] (-) TimerEvent: {}
+[20.891990] (-) TimerEvent: {}
+[20.992347] (-) TimerEvent: {}
+[21.079115] (dynosam_ros) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[21.079298] (dynosam_ros) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[21.092497] (-) TimerEvent: {}
+[21.192789] (-) TimerEvent: {}
+[21.293083] (-) TimerEvent: {}
+[21.393464] (-) TimerEvent: {}
+[21.493743] (-) TimerEvent: {}
+[21.594099] (-) TimerEvent: {}
+[21.694454] (-) TimerEvent: {}
+[21.794751] (-) TimerEvent: {}
+[21.895063] (-) TimerEvent: {}
+[21.995432] (-) TimerEvent: {}
+[22.095833] (-) TimerEvent: {}
+[22.196170] (-) TimerEvent: {}
+[22.296495] (-) TimerEvent: {}
+[22.396803] (-) TimerEvent: {}
+[22.497106] (-) TimerEvent: {}
+[22.597437] (-) TimerEvent: {}
+[22.697846] (-) TimerEvent: {}
+[22.798192] (-) TimerEvent: {}
+[22.898476] (-) TimerEvent: {}
+[22.998739] (-) TimerEvent: {}
+[23.099054] (-) TimerEvent: {}
+[23.199354] (-) TimerEvent: {}
+[23.299614] (-) TimerEvent: {}
+[23.399896] (-) TimerEvent: {}
+[23.500204] (-) TimerEvent: {}
+[23.600520] (-) TimerEvent: {}
+[23.700823] (-) TimerEvent: {}
+[23.801133] (-) TimerEvent: {}
+[23.901439] (-) TimerEvent: {}
+[24.001771] (-) TimerEvent: {}
+[24.102097] (-) TimerEvent: {}
+[24.202405] (-) TimerEvent: {}
+[24.302692] (-) TimerEvent: {}
+[24.403001] (-) TimerEvent: {}
+[24.503281] (-) TimerEvent: {}
+[24.603554] (-) TimerEvent: {}
+[24.703853] (-) TimerEvent: {}
+[24.804152] (-) TimerEvent: {}
+[24.904472] (-) TimerEvent: {}
+[25.004742] (-) TimerEvent: {}
+[25.105049] (-) TimerEvent: {}
+[25.205380] (-) TimerEvent: {}
+[25.305683] (-) TimerEvent: {}
+[25.406013] (-) TimerEvent: {}
+[25.506323] (-) TimerEvent: {}
+[25.606653] (-) TimerEvent: {}
+[25.706995] (-) TimerEvent: {}
+[25.807297] (-) TimerEvent: {}
+[25.907667] (-) TimerEvent: {}
+[26.007975] (-) TimerEvent: {}
+[26.108302] (-) TimerEvent: {}
+[26.208703] (-) TimerEvent: {}
+[26.309062] (-) TimerEvent: {}
+[26.409461] (-) TimerEvent: {}
+[26.509763] (-) TimerEvent: {}
+[26.610094] (-) TimerEvent: {}
+[26.710369] (-) TimerEvent: {}
+[26.810733] (-) TimerEvent: {}
+[26.911068] (-) TimerEvent: {}
+[27.011403] (-) TimerEvent: {}
+[27.111682] (-) TimerEvent: {}
+[27.211997] (-) TimerEvent: {}
+[27.312314] (-) TimerEvent: {}
+[27.412606] (-) TimerEvent: {}
+[27.512972] (-) TimerEvent: {}
+[27.613324] (-) TimerEvent: {}
+[27.713696] (-) TimerEvent: {}
+[27.814043] (-) TimerEvent: {}
+[27.914370] (-) TimerEvent: {}
+[28.014768] (-) TimerEvent: {}
+[28.115120] (-) TimerEvent: {}
+[28.215435] (-) TimerEvent: {}
+[28.315774] (-) TimerEvent: {}
+[28.416128] (-) TimerEvent: {}
+[28.516462] (-) TimerEvent: {}
+[28.616842] (-) TimerEvent: {}
+[28.717158] (-) TimerEvent: {}
+[28.817512] (-) TimerEvent: {}
+[28.917889] (-) TimerEvent: {}
+[29.018206] (-) TimerEvent: {}
+[29.118539] (-) TimerEvent: {}
+[29.218885] (-) TimerEvent: {}
+[29.319252] (-) TimerEvent: {}
+[29.419599] (-) TimerEvent: {}
+[29.519911] (-) TimerEvent: {}
+[29.620260] (-) TimerEvent: {}
+[29.720665] (-) TimerEvent: {}
+[29.821027] (-) TimerEvent: {}
+[29.921382] (-) TimerEvent: {}
+[30.021709] (-) TimerEvent: {}
+[30.122101] (-) TimerEvent: {}
+[30.222444] (-) TimerEvent: {}
+[30.322781] (-) TimerEvent: {}
+[30.423107] (-) TimerEvent: {}
+[30.501643] (dynosam_ros) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[30.513981] (dynosam_ros) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[30.523228] (-) TimerEvent: {}
+[30.623521] (-) TimerEvent: {}
+[30.714576] (dynosam_ros) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[30.715644] (dynosam_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[30.723648] (-) TimerEvent: {}
+[30.823887] (-) TimerEvent: {}
+[30.924179] (-) TimerEvent: {}
+[31.024438] (-) TimerEvent: {}
+[31.106162] (dynosam_ros) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[31.124578] (-) TimerEvent: {}
+[31.224882] (-) TimerEvent: {}
+[31.325176] (-) TimerEvent: {}
+[31.425504] (-) TimerEvent: {}
+[31.525815] (-) TimerEvent: {}
+[31.626145] (-) TimerEvent: {}
+[31.726451] (-) TimerEvent: {}
+[31.826815] (-) TimerEvent: {}
+[31.927102] (-) TimerEvent: {}
+[32.027364] (-) TimerEvent: {}
+[32.127663] (-) TimerEvent: {}
+[32.227964] (-) TimerEvent: {}
+[32.328269] (-) TimerEvent: {}
+[32.428570] (-) TimerEvent: {}
+[32.528875] (-) TimerEvent: {}
+[32.629269] (-) TimerEvent: {}
+[32.729603] (-) TimerEvent: {}
+[32.829889] (-) TimerEvent: {}
+[32.930198] (-) TimerEvent: {}
+[33.030507] (-) TimerEvent: {}
+[33.130832] (-) TimerEvent: {}
+[33.231163] (-) TimerEvent: {}
+[33.331567] (-) TimerEvent: {}
+[33.431850] (-) TimerEvent: {}
+[33.532154] (-) TimerEvent: {}
+[33.632460] (-) TimerEvent: {}
+[33.732801] (-) TimerEvent: {}
+[33.833173] (-) TimerEvent: {}
+[33.933474] (-) TimerEvent: {}
+[34.033796] (-) TimerEvent: {}
+[34.134206] (-) TimerEvent: {}
+[34.234499] (-) TimerEvent: {}
+[34.334815] (-) TimerEvent: {}
+[34.435139] (-) TimerEvent: {}
+[34.535459] (-) TimerEvent: {}
+[34.635772] (-) TimerEvent: {}
+[34.736170] (-) TimerEvent: {}
+[34.836681] (-) TimerEvent: {}
+[34.936992] (-) TimerEvent: {}
+[35.037390] (-) TimerEvent: {}
+[35.137757] (-) TimerEvent: {}
+[35.238116] (-) TimerEvent: {}
+[35.338466] (-) TimerEvent: {}
+[35.342739] (dynosam_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[35.348392] (dynosam_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[35.353614] (dynosam_ros) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[35.438580] (-) TimerEvent: {}
+[35.538937] (-) TimerEvent: {}
+[35.639290] (-) TimerEvent: {}
+[35.739642] (-) TimerEvent: {}
+[35.840092] (-) TimerEvent: {}
+[35.940462] (-) TimerEvent: {}
+[36.040804] (-) TimerEvent: {}
+[36.141318] (-) TimerEvent: {}
+[36.241728] (-) TimerEvent: {}
+[36.342038] (-) TimerEvent: {}
+[36.442373] (-) TimerEvent: {}
+[36.542841] (-) TimerEvent: {}
+[36.643202] (-) TimerEvent: {}
+[36.743711] (-) TimerEvent: {}
+[36.844135] (-) TimerEvent: {}
+[36.944711] (-) TimerEvent: {}
+[37.045207] (-) TimerEvent: {}
+[37.145824] (-) TimerEvent: {}
+[37.246279] (-) TimerEvent: {}
+[37.346625] (-) TimerEvent: {}
+[37.446987] (-) TimerEvent: {}
+[37.547518] (-) TimerEvent: {}
+[37.647968] (-) TimerEvent: {}
+[37.748369] (-) TimerEvent: {}
+[37.848769] (-) TimerEvent: {}
+[37.949357] (-) TimerEvent: {}
+[38.049832] (-) TimerEvent: {}
+[38.150170] (-) TimerEvent: {}
+[38.250538] (-) TimerEvent: {}
+[38.350881] (-) TimerEvent: {}
+[38.451234] (-) TimerEvent: {}
+[38.551559] (-) TimerEvent: {}
+[38.651911] (-) TimerEvent: {}
+[38.752310] (-) TimerEvent: {}
+[38.852636] (-) TimerEvent: {}
+[38.952982] (-) TimerEvent: {}
+[39.053322] (-) TimerEvent: {}
+[39.153627] (-) TimerEvent: {}
+[39.253954] (-) TimerEvent: {}
+[39.354314] (-) TimerEvent: {}
+[39.454630] (-) TimerEvent: {}
+[39.554948] (-) TimerEvent: {}
+[39.655295] (-) TimerEvent: {}
+[39.681005] (dynosam_ros) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[39.755407] (-) TimerEvent: {}
+[39.855730] (-) TimerEvent: {}
+[39.956063] (-) TimerEvent: {}
+[40.056414] (-) TimerEvent: {}
+[40.156708] (-) TimerEvent: {}
+[40.257026] (-) TimerEvent: {}
+[40.357343] (-) TimerEvent: {}
+[40.457642] (-) TimerEvent: {}
+[40.557960] (-) TimerEvent: {}
+[40.658282] (-) TimerEvent: {}
+[40.758611] (-) TimerEvent: {}
+[40.858948] (-) TimerEvent: {}
+[40.959249] (-) TimerEvent: {}
+[41.059559] (-) TimerEvent: {}
+[41.159881] (-) TimerEvent: {}
+[41.260265] (-) TimerEvent: {}
+[41.360605] (-) TimerEvent: {}
+[41.460951] (-) TimerEvent: {}
+[41.561362] (-) TimerEvent: {}
+[41.661879] (-) TimerEvent: {}
+[41.762205] (-) TimerEvent: {}
+[41.862567] (-) TimerEvent: {}
+[41.963018] (-) TimerEvent: {}
+[42.063498] (-) TimerEvent: {}
+[42.163929] (-) TimerEvent: {}
+[42.264319] (-) TimerEvent: {}
+[42.364704] (-) TimerEvent: {}
+[42.465433] (-) TimerEvent: {}
+[42.566145] (-) TimerEvent: {}
+[42.666582] (-) TimerEvent: {}
+[42.766970] (-) TimerEvent: {}
+[42.867711] (-) TimerEvent: {}
+[42.968065] (-) TimerEvent: {}
+[43.068745] (-) TimerEvent: {}
+[43.169167] (-) TimerEvent: {}
+[43.269654] (-) TimerEvent: {}
+[43.370075] (-) TimerEvent: {}
+[43.470414] (-) TimerEvent: {}
+[43.570820] (-) TimerEvent: {}
+[43.671209] (-) TimerEvent: {}
+[43.771563] (-) TimerEvent: {}
+[43.872095] (-) TimerEvent: {}
+[43.961899] (dynosam_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[43.972356] (-) TimerEvent: {}
+[44.072752] (-) TimerEvent: {}
+[44.173168] (-) TimerEvent: {}
+[44.273645] (-) TimerEvent: {}
+[44.374024] (-) TimerEvent: {}
+[44.474387] (-) TimerEvent: {}
+[44.574769] (-) TimerEvent: {}
+[44.675210] (-) TimerEvent: {}
+[44.775574] (-) TimerEvent: {}
+[44.875944] (-) TimerEvent: {}
+[44.976312] (-) TimerEvent: {}
+[45.076734] (-) TimerEvent: {}
+[45.177159] (-) TimerEvent: {}
+[45.277486] (-) TimerEvent: {}
+[45.377834] (-) TimerEvent: {}
+[45.478172] (-) TimerEvent: {}
+[45.578533] (-) TimerEvent: {}
+[45.678958] (-) TimerEvent: {}
+[45.779379] (-) TimerEvent: {}
+[45.879950] (-) TimerEvent: {}
+[45.980331] (-) TimerEvent: {}
+[46.080714] (-) TimerEvent: {}
+[46.181053] (-) TimerEvent: {}
+[46.281447] (-) TimerEvent: {}
+[46.381702] (-) TimerEvent: {}
+[46.482033] (-) TimerEvent: {}
+[46.582594] (-) TimerEvent: {}
+[46.682862] (-) TimerEvent: {}
+[46.783144] (-) TimerEvent: {}
+[46.883463] (-) TimerEvent: {}
+[46.983738] (-) TimerEvent: {}
+[47.084014] (-) TimerEvent: {}
+[47.184330] (-) TimerEvent: {}
+[47.284632] (-) TimerEvent: {}
+[47.384906] (-) TimerEvent: {}
+[47.485228] (-) TimerEvent: {}
+[47.585549] (-) TimerEvent: {}
+[47.685889] (-) TimerEvent: {}
+[47.786219] (-) TimerEvent: {}
+[47.886509] (-) TimerEvent: {}
+[47.986866] (-) TimerEvent: {}
+[48.087250] (-) TimerEvent: {}
+[48.127311] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[48.128090] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[48.128833] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[48.129633] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[48.130470] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[48.131211] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[48.131617] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[48.131957] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[48.132673] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[48.133432] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[48.134281] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[48.135067] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[48.135879] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[48.136757] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[48.137592] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[48.138478] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[48.139450] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[48.140473] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[48.141340] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[48.142203] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[48.143027] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[48.143522] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[48.144185] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[48.145014] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[48.145803] (dynosam_ros) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[48.149336] (dynosam_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[48.163007] (dynosam_ros) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[48.168499] (dynosam_ros) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[48.187327] (-) TimerEvent: {}
+[48.287628] (-) TimerEvent: {}
+[48.387958] (-) TimerEvent: {}
+[48.488286] (-) TimerEvent: {}
+[48.588600] (-) TimerEvent: {}
+[48.688848] (-) TimerEvent: {}
+[48.789181] (-) TimerEvent: {}
+[48.889557] (-) TimerEvent: {}
+[48.989927] (-) TimerEvent: {}
+[49.090257] (-) TimerEvent: {}
+[49.190605] (-) TimerEvent: {}
+[49.290888] (-) TimerEvent: {}
+[49.391264] (-) TimerEvent: {}
+[49.491720] (-) TimerEvent: {}
+[49.592120] (-) TimerEvent: {}
+[49.692462] (-) TimerEvent: {}
+[49.792813] (-) TimerEvent: {}
+[49.893244] (-) TimerEvent: {}
+[49.993674] (-) TimerEvent: {}
+[50.094004] (-) TimerEvent: {}
+[50.194468] (-) TimerEvent: {}
+[50.294801] (-) TimerEvent: {}
+[50.395116] (-) TimerEvent: {}
+[50.465403] (dynosam_ros) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:32 (find_package):\n'}
+[50.465656] (dynosam_ros) StderrLine: {'line': b'  By not providing "Finddynosam.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[50.465714] (dynosam_ros) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "dynosam", but\n'}
+[50.465762] (dynosam_ros) StderrLine: {'line': b'  CMake did not find one.\n'}
+[50.465807] (dynosam_ros) StderrLine: {'line': b'\n'}
+[50.465851] (dynosam_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "dynosam" with any\n'}
+[50.465944] (dynosam_ros) StderrLine: {'line': b'  of the following names:\n'}
+[50.466000] (dynosam_ros) StderrLine: {'line': b'\n'}
+[50.466048] (dynosam_ros) StderrLine: {'line': b'    dynosamConfig.cmake\n'}
+[50.466097] (dynosam_ros) StderrLine: {'line': b'    dynosam-config.cmake\n'}
+[50.466143] (dynosam_ros) StderrLine: {'line': b'\n'}
+[50.466191] (dynosam_ros) StderrLine: {'line': b'  Add the installation prefix of "dynosam" to CMAKE_PREFIX_PATH or set\n'}
+[50.466245] (dynosam_ros) StderrLine: {'line': b'  "dynosam_DIR" to a directory containing one of the above files.  If\n'}
+[50.466292] (dynosam_ros) StderrLine: {'line': b'  "dynosam" provides a separate development package or SDK, be sure it has\n'}
+[50.466339] (dynosam_ros) StderrLine: {'line': b'  been installed.\n'}
+[50.466384] (dynosam_ros) StderrLine: {'line': b'\n'}
+[50.466431] (dynosam_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[50.466478] (dynosam_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[50.466532] (dynosam_ros) StdoutLine: {'line': b'See also "/home/bonnie/DynOSAM/src/dynosam_ros/build/dynosam_ros/CMakeFiles/CMakeOutput.log".\n'}
+[50.483212] (dynosam_ros) CommandEnded: {'returncode': 1}
+[50.495264] (-) TimerEvent: {}
+[50.505265] (dynosam_ros) JobEnded: {'identifier': 'dynosam_ros', 'rc': 1}
+[50.516183] (-) EventReactorShutdown: {}

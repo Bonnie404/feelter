@@ -1,0 +1,1188 @@
+
+[0/1] Re-running CMake...[K
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found CUDA: /usr/local/cuda (found version "11.8") 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+-- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_MODELER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found CUDA: /usr/local/cuda (found suitable version "11.8", minimum required is "11") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/bonnie/DynOSAM/src/dynosam/include;/home/bonnie/DynOSAM/src/dynosam/test;$<BUILD_INTERFACE:/home/bonnie/DynOSAM/src/dynosam/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bonnie/DynOSAM/build/dynosam
+
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/common/Camera.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/common/Types.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/common/CameraParams.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/common/GroundTruthPacket.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/Lapjv.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/Rect.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/KalmanFilter.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/common/Algorithms.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/FeatureDetector.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/RGBDInstance-Definitions.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/anms/NonMaximumSupression.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/rgbd/WorldMotionEstimator.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/anms/anms.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/BackendPipeline.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/BackendModule.cc.o[K
+[0/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/BackendDefinitions.cc.o[K
+[1/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/Lapjv.cc.o[K
+[1/127] Building CXX object CMakeFiles/dynosam.dir/src/common/PointCloudProcess.cc.o[K
+[2/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/Rect.cc.o[K
+[2/127] Building CXX object CMakeFiles/dynosam.dir/src/common/ZEDCamera.cc.o[K
+[3/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/anms/NonMaximumSupression.cc.o[K
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/anms.h:33,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/frontend/anms/NonMaximumSupression.cc:26:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h: In member function ‘u32 rangetree<point, data>::count(point, point, point, point) const’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h:136:30: warning: ISO C++ forbids variable length array ‘list’ [-Wvla]
+  136 |                 const node * list[maxterminals];
+      |                              ^~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h: In member function ‘std::vector<data*>* rangetree<point, data>::search(point, point, point, point) const’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h:171:30: warning: ISO C++ forbids variable length array ‘list’ [-Wvla]
+  171 |                 const node * list[maxterminals];
+      |                              ^~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h: In member function ‘void rangetree<point, data>::search(data**, u32&, point, point, point, point) const’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h:210:30: warning: ISO C++ forbids variable length array ‘list’ [-Wvla]
+  210 |                 const node * list[maxterminals];
+      |                              ^~~~
+
+[3/127] Building CXX object CMakeFiles/dynosam.dir/src/common/StructuredContainers.cc.o[K
+[4/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/anms/anms.cc.o[K
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/anms.h:33,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/frontend/anms/anms.cc:48:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h: In member function ‘u32 rangetree<point, data>::count(point, point, point, point) const’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h:136:30: warning: ISO C++ forbids variable length array ‘list’ [-Wvla]
+  136 |                 const node * list[maxterminals];
+      |                              ^~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h: In member function ‘std::vector<data*>* rangetree<point, data>::search(point, point, point, point) const’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h:171:30: warning: ISO C++ forbids variable length array ‘list’ [-Wvla]
+  171 |                 const node * list[maxterminals];
+      |                              ^~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h: In member function ‘void rangetree<point, data>::search(data**, u32&, point, point, point, point) const’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h:210:30: warning: ISO C++ forbids variable length array ‘list’ [-Wvla]
+  210 |                 const node * list[maxterminals];
+      |                              ^~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h: In instantiation of ‘std::vector<data*>* rangetree<point, data>::search(point, point, point, point) const [with point = short unsigned int; data = short unsigned int]’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/anms/anms.cc:341:48:   required from here
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h:171:30: warning: ISO C++ forbids variable length array [-Wvla]
+  171 |                 const node * list[maxterminals];
+      |                              ^~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/src/frontend/anms/anms.cc:55:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/nanoflann.hpp: In instantiation of ‘void nanoflann::CArray<T, N>::assign(size_t, const T&) [with T = int; long unsigned int N = 2; size_t = long unsigned int]’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/nanoflann.hpp:929:17:   required from ‘bool nanoflann::KDTreeSingleIndexAdaptor<Distance, DatasetAdaptor, DIM, IndexType>::findNeighbors(RESULTSET&, const ElementType*, const nanoflann::SearchParams&) const [with RESULTSET = nanoflann::RadiusResultSet<int, long unsigned int>; Distance = nanoflann::L2_Simple_Adaptor<int, anms::PointCloud<int> >; DatasetAdaptor = anms::PointCloud<int>; int DIM = 2; IndexType = long unsigned int; nanoflann::KDTreeSingleIndexAdaptor<Distance, DatasetAdaptor, DIM, IndexType>::ElementType = int]’
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/nanoflann.hpp:992:24:   required from ‘size_t nanoflann::KDTreeSingleIndexAdaptor<Distance, DatasetAdaptor, DIM, IndexType>::radiusSearchCustomCallback(const ElementType*, SEARCH_CALLBACK&, const nanoflann::SearchParams&) const [with SEARCH_CALLBACK = nanoflann::RadiusResultSet<int, long unsigned int>; Distance = nanoflann::L2_Simple_Adaptor<int, anms::PointCloud<int> >; DatasetAdaptor = anms::PointCloud<int>; int DIM = 2; IndexType = long unsigned int; size_t = long unsigned int; nanoflann::KDTreeSingleIndexAdaptor<Distance, DatasetAdaptor, DIM, IndexType>::ElementType = int]’
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/nanoflann.hpp:977:35:   required from ‘size_t nanoflann::KDTreeSingleIndexAdaptor<Distance, DatasetAdaptor, DIM, IndexType>::radiusSearch(const ElementType*, const DistanceType&, std::vector<std::pair<IndexType, typename Distance::DistanceType> >&, const nanoflann::SearchParams&) const [with Distance = nanoflann::L2_Simple_Adaptor<int, anms::PointCloud<int> >; DatasetAdaptor = anms::PointCloud<int>; int DIM = 2; IndexType = long unsigned int; size_t = long unsigned int; nanoflann::KDTreeSingleIndexAdaptor<Distance, DatasetAdaptor, DIM, IndexType>::ElementType = int; nanoflann::KDTreeSingleIndexAdaptor<Distance, DatasetAdaptor, DIM, IndexType>::DistanceType = int; typename Distance::DistanceType = int]’
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/anms/anms.cc:248:51:   required from here
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/anms/anms/nanoflann.hpp:679:28: warning: unused parameter ‘n’ [-Wunused-parameter]
+  679 |   void assign(const size_t n, const T& value) {
+      |               ~~~~~~~~~~~~~^
+
+[4/127] Building CXX object CMakeFiles/dynosam.dir/src/common/StereoCamera.cc.o[K
+[5/127] Building CXX object CMakeFiles/dynosam.dir/src/common/Types.cc.o[K
+[5/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/Feature.cc.o[K
+[6/127] Building CXX object CMakeFiles/dynosam.dir/src/common/Algorithms.cc.o[K
+[6/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DatasetProvider.cc.o[K
+[7/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/KalmanFilter.cc.o[K
+[7/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/ByteTracker.cc.o[K
+[8/127] Building CXX object CMakeFiles/dynosam.dir/src/common/ZEDCamera.cc.o[K
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/common/ZEDCamera.cc:2:
+/usr/local/zed/include/sl/Camera.hpp:1288:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1288 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1439:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1439 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1625:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1625 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1840:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1840 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1844:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1844 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1848:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1848 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2156:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2156 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2160:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2160 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2164:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2164 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)’:
+/usr/local/zed/include/sl/Camera.hpp:2719:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2719 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)’:
+/usr/local/zed/include/sl/Camera.hpp:2724:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2724 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)’:
+/usr/local/zed/include/sl/Camera.hpp:2729:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2729 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)’:
+/usr/local/zed/include/sl/Camera.hpp:2734:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2734 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::getCurrentTimeStamp()’:
+/usr/local/zed/include/sl/Camera.hpp:2768:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2768 |         return current_ts;
+      |                ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘cudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)’:
+/usr/local/zed/include/sl/Camera.hpp:2775:89: warning: unused parameter ‘file’ [-Wunused-parameter]
+ 2775 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+      |                                                                             ~~~~~~~~~~~~^~~~
+/usr/local/zed/include/sl/Camera.hpp:2775:105: warning: unused parameter ‘line’ [-Wunused-parameter]
+ 2775 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+      |                                                                                               ~~~~~~~~~~^~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function ‘sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const’:
+/usr/local/zed/include/sl/Camera.hpp:3880:62: warning: implicitly-declared ‘sl::Transform& sl::Transform::operator=(const sl::Transform&)’ is deprecated [-Wdeprecated-copy]
+ 3880 |             output_calibration_parameters.stereo_transform = stereo_transform;
+      |                                                              ^~~~~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:3748:9: note: because ‘sl::Transform’ has user-provided ‘sl::Transform::Transform(const sl::Transform&)’
+ 3748 |         Transform(const Transform &motion);
+      |         ^~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function ‘sl::Transform& sl::Transform::operator=(const sl::Transform&)’:
+/usr/local/zed/include/sl/Camera.hpp:3737:60: warning: implicitly-declared ‘sl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)’ is deprecated [-Wdeprecated-copy]
+ 3737 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Transform : public Matrix4f {
+      |                                                            ^~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1461:9: note: because ‘sl::Matrix4f’ has user-provided ‘sl::Matrix4f::Matrix4f(const sl::Matrix4f&)’
+ 1461 |         Matrix4f(const Matrix4f &mat);
+      |         ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function ‘sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const’:
+/usr/local/zed/include/sl/Camera.hpp:3880:62: note: synthesized method ‘sl::Transform& sl::Transform::operator=(const sl::Transform&)’ first required here
+ 3880 |             output_calibration_parameters.stereo_transform = stereo_transform;
+      |                                                              ^~~~~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In constructor ‘sl::SVOData::SVOData(std::string&, std::vector<unsigned char>&, sl::Timestamp)’:
+/usr/local/zed/include/sl/Camera.hpp:6331:28: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 6331 |             timestamp_ns = timestamp_ns_;
+      |                            ^~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:40: note:   initializing argument 1 of ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                              ~~~~~~~~~~^~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/common/ZEDCamera.cc:2:
+/usr/local/zed/include/sl/Camera.hpp: At global scope:
+/usr/local/zed/include/sl/Camera.hpp:8920:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 8920 |     inline const void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+      |            ^~~~~
+
+[8/127] Building CXX object CMakeFiles/dynosam.dir/src/common/MapNodes.cc.o[K
+[9/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/FeatureDetector.cc.o[K
+[9/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/Detection.cc.o[K
+[10/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/Detection.cc.o[K
+[10/127] Building CXX object CMakeFiles/dynosam.dir/src/common/ImageTypes.cc.o[K
+[11/127] Building CXX object CMakeFiles/dynosam.dir/src/common/StructuredContainers.cc.o[K
+[11/127] Building CXX object CMakeFiles/dynosam.dir/src/common/DynamicObjects.cc.o[K
+[12/127] Building CXX object CMakeFiles/dynosam.dir/src/common/PointCloudProcess.cc.o[K
+[12/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/OMDDataProvider.cc.o[K
+[13/127] Building CXX object CMakeFiles/dynosam.dir/src/common/GroundTruthPacket.cc.o[K
+[13/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/ClusterSlamDataProvider.cc.o[K
+[14/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/BackendPipeline.cc.o[K
+[14/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/LandmarkPoseSmoothingFactor.cc.o[K
+[15/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/ByteTracker.cc.o[K
+[15/127] Building CXX object CMakeFiles/dynosam.dir/src/pipeline/PipelineManager.cc.o[K
+[16/127] Building CXX object CMakeFiles/dynosam.dir/src/common/CameraParams.cc.o[K
+[16/127] Building CXX object CMakeFiles/dynosam.dir/src/pipeline/PipelineParams.cc.o[K
+[17/127] Building CXX object CMakeFiles/dynosam.dir/src/common/Camera.cc.o[K
+[17/127] Building CXX object CMakeFiles/dynosam.dir/src/pipeline/PipelineBase.cc.o[K
+[18/127] Building CXX object CMakeFiles/dynosam.dir/src/pipeline/PipelineBase.cc.o[K
+[18/127] Building CXX object CMakeFiles/dynosam.dir/src/pipeline/PipelineSpinner.cc.o[K
+[19/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/BackendDefinitions.cc.o[K
+[19/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/Spinner.cc.o[K
+[20/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/RGBDInstance-Definitions.cc.o[K
+[20/127] Building CXX object CMakeFiles/dynosam.dir/src/logger/Logger.cc.o[K
+[21/127] Building CXX object CMakeFiles/dynosam.dir/src/common/StereoCamera.cc.o[K
+[21/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/OpenCVUtils.cc.o[K
+[22/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/Spinner.cc.o[K
+[22/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/GtsamUtils.cc.o[K
+[23/127] Building CXX object CMakeFiles/dynosam.dir/src/pipeline/PipelineSpinner.cc.o[K
+[23/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/Statistics.cc.o[K
+[24/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/Feature.cc.o[K
+[24/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/Metrics.cc.o[K
+[25/127] Building CXX object CMakeFiles/dynosam.dir/src/common/ImageTypes.cc.o[K
+[25/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/CsvParser.cc.o[K
+[26/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/Statistics.cc.o[K
+[26/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/TimingStats.cc.o[K
+[27/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/LandmarkPoseSmoothingFactor.cc.o[K
+[27/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DatasetLoader.cc.o[K
+[28/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/BackendModule.cc.o[K
+[28/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DataProviderUtils.cc.o[K
+[29/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/TimingStats.cc.o[K
+[29/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DataInterfacePipeline.cc.o[K
+[30/127] Building CXX object CMakeFiles/dynosam.dir/src/common/DynamicObjects.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/common/DynamicObjects.cc: In function ‘void dyno::propogateObjectPoses(dyno::ObjectPoseMap&, const MotionEstimateMap&, const Point3Vector&, const Point3Vector&, dyno::FrameId, std::optional<gtsam::FastMap<long unsigned int, dyno::GroundTruthInputPacket> >, dyno::PropogatePoseResult*)’:
+/home/bonnie/DynOSAM/src/dynosam/src/common/DynamicObjects.cc:90:16: warning: variable ‘centroid_k’ set but not used [-Wunused-but-set-variable]
+   90 |     const auto centroid_k = object_centroids_k.at(i);
+      |                ^~~~~~~~~~
+
+[30/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/Frame.cc.o[K
+[31/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/CsvParser.cc.o[K
+[31/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/UndistortRectifier.cc.o[K
+[32/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DatasetProvider.cc.o[K
+[32/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/RGBDInstanceFrontendModule.cc.o[K
+[33/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/Metrics.cc.o[K
+[33/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/FrontendPipeline.cc.o[K
+[34/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/rgbd/WorldMotionEstimator.cc.o[K
+[34/127] Building CXX object CMakeFiles/dynosam.dir/src/common/Map.cc.o[K
+[35/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/GtsamUtils.cc.o[K
+[36/127] Building CXX object CMakeFiles/dynosam.dir/src/common/MapNodes.cc.o[K
+[37/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/OpenCVUtils.cc.o[K
+[38/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/OMDDataProvider.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/OMDDataProvider.cc: In member function ‘void dyno::OMDOldAllLoader::loadAll(const string&)’:
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/OMDDataProvider.cc:1089:28: warning: unused variable ‘frame_id’ [-Wunused-variable]
+ 1089 |                 const auto frame_id = object_pose.frame_id_;
+      |                            ^~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/OMDDataProvider.cc:1176:44: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+ 1176 |         for (size_t frame_id = 0; frame_id < nTimes - 1; frame_id++)
+      |                                   ~~~~~~~~~^~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/OMDDataProvider.cc:1190:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<long unsigned int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+ 1190 |             for (int i = 0; i < vObjPoseID[frame_id].size(); i++)
+      |                             ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[39/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DatasetLoader.cc.o[K
+[40/127] Building CXX object CMakeFiles/dynosam.dir/src/logger/Logger.cc.o[K
+[41/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DataInterfacePipeline.cc.o[K
+[41/127] Building CXX object CMakeFiles/dynosam.dir/src/visualizer/VisualizerPipelines.cc.o[K
+[41/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/Histogram.cc.o[K
+[41/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/JsonUtils.cc.o[K
+[41/127] Building CXX object CMakeFiles/dynosam.dir/src/visualizer/ColourMap.cc.o[K
+[41/127] Building CXX object CMakeFiles/dynosam.dir/src/visualizer/OpenCVFrontendDisplay.cc.o[K
+[41/127] Building CXX object CMakeFiles/dynosam.dir/src/visualizer/Visualizer-Definitions.cc.o[K
+[41/127] Building CXX object CMakeFiles/dyno_sam.dir/example/dyno_sam.cc.o[K
+[42/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/ClusterSlamDataProvider.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc: In constructor ‘dyno::ClusterSlamAllLoader::ClusterSlamAllLoader(const string&)’:
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:640:23: warning: ‘dyno::ClusterSlamAllLoader::right_images_folder_path_’ will be initialized after [-Wreorder]
+  640 |     const std::string right_images_folder_path_;
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:637:23: warning:   ‘const string dyno::ClusterSlamAllLoader::optical_flow_folder_path_’ [-Wreorder]
+  637 |     const std::string optical_flow_folder_path_;
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:66:5: warning:   when initialized here [-Wreorder]
+   66 |     ClusterSlamAllLoader(const std::string& file_path)
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:641:23: warning: ‘dyno::ClusterSlamAllLoader::instance_masks_folder_’ will be initialized after [-Wreorder]
+  641 |     const std::string instance_masks_folder_;
+      |                       ^~~~~~~~~~~~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:639:23: warning:   ‘const string dyno::ClusterSlamAllLoader::left_landmarks_folder_’ [-Wreorder]
+  639 |     const std::string left_landmarks_folder_;
+      |                       ^~~~~~~~~~~~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:66:5: warning:   when initialized here [-Wreorder]
+   66 |     ClusterSlamAllLoader(const std::string& file_path)
+      |     ^~~~~~~~~~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc: In member function ‘void dyno::ClusterSlamAllLoader::associateDetectedBBWithObject(const cv::Mat&, dyno::FrameId, cv::Mat&) const’:
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:496:29: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘Eigen::EigenBase<Eigen::Matrix<int, -1, 1> >::Index’ {aka ‘long int’} [-Wsign-compare]
+  496 |         for(size_t i = 0; i < assignment.size(); i++) {
+      |                           ~~^~~~~~~~~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:409:39: warning: unused variable ‘gt_packet’ [-Wunused-variable]
+  409 |         const GroundTruthInputPacket& gt_packet = getGtPacket(frame_id);
+      |                                       ^~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc: In member function ‘gtsam::Pose3Vector dyno::ClusterSlamAllLoader::processPoseFile(const string&, dyno::GroundTruthPacketMap&)’:
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ClusterSlamDataProvider.cc:596:92: warning: unused parameter ‘ground_truth_packets’ [-Wunused-parameter]
+  596 |     gtsam::Pose3Vector processPoseFile(const std::string& pose_file, GroundTruthPacketMap& ground_truth_packets) {
+      |                                                                      ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+
+[42/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/internal/tmp_file.cc.o[K
+[43/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/internal/tmp_file.cc.o[K
+[44/127] Building CXX object CMakeFiles/dynosam.dir/src/visualizer/Visualizer-Definitions.cc.o[K
+[45/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DataProviderUtils.cc.o[K
+[46/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/Histogram.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/utils/Histogram.cc: In function ‘void dyno::from_json(const json&, dyno::Histogram&)’:
+/home/bonnie/DynOSAM/src/dynosam/src/utils/Histogram.cc:62:28: warning: unused parameter ‘j’ [-Wunused-parameter]
+   62 | void from_json(const json& j, Histogram& histogram) {
+      |                ~~~~~~~~~~~~^
+/home/bonnie/DynOSAM/src/dynosam/src/utils/Histogram.cc:62:42: warning: unused parameter ‘histogram’ [-Wunused-parameter]
+   62 | void from_json(const json& j, Histogram& histogram) {
+      |                               ~~~~~~~~~~~^~~~~~~~~
+
+[47/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/Frame.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/Frame.cc: In member function ‘dyno::Landmark dyno::Frame::getLandmarkFromCache(dyno::LandmarkMap&, dyno::Feature::Ptr, const gtsam::Pose3&) const’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/Frame.cc:472:51: warning: unused parameter ‘cache’ [-Wunused-parameter]
+  472 | Landmark Frame::getLandmarkFromCache(LandmarkMap& cache, Feature::Ptr feature, const gtsam::Pose3& X_world) const {
+      |                                      ~~~~~~~~~~~~~^~~~~
+
+[48/127] Building CXX object CMakeFiles/dynosam.dir/src/pipeline/PipelineParams.cc.o[K
+[49/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/UndistortRectifier.cc.o[K
+[49/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_types.cc.o[K
+[49/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_numerical.cc.o[K
+[49/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_histogram.cc.o[K
+[49/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/test_main.cc.o[K
+[49/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_csv.cc.o[K
+[49/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/camera/test_camera_params.cc.o[K
+[49/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/camera/test_camera.cc.o[K
+[50/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/FrontendPipeline.cc.o[K
+[50/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/internal/simulator.cc.o[K
+[51/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_csv.cc.o[K
+[51/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DataProviderFactory.cc.o[K
+[52/127] Building CXX object CMakeFiles/dynosam.dir/src/visualizer/ColourMap.cc.o[K
+[52/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/VirtualKittidataProvider.cc.o[K
+[53/127] Building CXX object CMakeFiles/dynosam.dir/src/common/Map.cc.o[K
+[54/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_numerical.cc.o[K
+[55/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_histogram.cc.o[K
+[56/127] Building CXX object CMakeFiles/dynosam.dir/src/pipeline/PipelineManager.cc.o[K
+[57/127] Building CXX object CMakeFiles/dynosam.dir/src/visualizer/OpenCVFrontendDisplay.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/visualizer/OpenCVFrontendDisplay.cc: In member function ‘virtual void dyno::OpenCVFrontendDisplay::spinOnce(const ConstPtr&)’:
+/home/bonnie/DynOSAM/src/dynosam/src/visualizer/OpenCVFrontendDisplay.cc:31:80: warning: unused parameter ‘frontend_output’ [-Wunused-parameter]
+   31 | void OpenCVFrontendDisplay::spinOnce(const FrontendOutputPacketBase::ConstPtr& frontend_output) {
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+
+[57/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DataProvider.cc.o[K
+[57/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/Track.cc.o[K
+[57/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/BackendParams.cc.o[K
+[57/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/FactorGraphTools.cc.o[K
+[57/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/DynamicPointSymbol.cc.o[K
+[58/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/BackendParams.cc.o[K
+[58/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/RGBDBackendModule.cc.o[K
+[59/127] Building CXX object CMakeFiles/dynosam.dir/src/visualizer/VisualizerPipelines.cc.o[K
+[59/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/rgbd/WorldPoseEstimator.cc.o[K
+[60/127] Building CXX object CMakeFiles/dynosam.dir/src/common/byte_tracker/Track.cc.o[K
+[60/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/LandmarkMotionTernaryFactor.cc.o[K
+[61/127] Building CXX object CMakeFiles/dynosam.dir/src/utils/JsonUtils.cc.o[K
+[62/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/LandmarkMotionTernaryFactor.cc.o[K
+[63/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/internal/simulator.cc.o[K
+[64/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/RGBDInstanceFrontendModule.cc.o[K
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver.hpp:377,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/FrontendParams.hpp:31,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/FrontendModule.hpp:37,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/RGBDInstanceFrontendModule.hpp:34,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/frontend/RGBDInstanceFrontendModule.cc:31:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp: In instantiation of ‘dyno::OpticalFlowAndPoseOptimizer::Result dyno::OpticalFlowAndPoseOptimizer::optimize(dyno::Frame::Ptr, dyno::Frame::Ptr, const TrackletIds&, const gtsam::Pose3&) const [with CALIBRATION = gtsam::Cal3_S2; dyno::OpticalFlowAndPoseOptimizer::Result = dyno::SolverResult<dyno::OpticalFlowAndPoseOptimizer::ResultType>; dyno::Frame::Ptr = std::shared_ptr<dyno::Frame>; dyno::TrackletIds = std::vector<long int>]’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:271:34:   required from ‘dyno::OpticalFlowAndPoseOptimizer::Result dyno::OpticalFlowAndPoseOptimizer::optimizeAndUpdate(dyno::Frame::Ptr, dyno::Frame::Ptr, const TrackletIds&, const gtsam::Pose3&) const [with CALIBRATION = gtsam::Cal3_S2; dyno::OpticalFlowAndPoseOptimizer::Result = dyno::SolverResult<dyno::OpticalFlowAndPoseOptimizer::ResultType>; dyno::Frame::Ptr = std::shared_ptr<dyno::Frame>; dyno::TrackletIds = std::vector<long int>]’
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/RGBDInstanceFrontendModule.cc:231:79:   required from here
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:233:10: warning: unused variable ‘initial_size’ [-Wunused-variable]
+  233 |   size_t initial_size = graph.size();
+      |          ^~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:234:10: warning: unused variable ‘inlier_size’ [-Wunused-variable]
+  234 |   size_t inlier_size = mutable_graph.size();
+      |          ^~~~~~~~~~~
+
+[65/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/DynamicPointSymbol.cc.o[K
+[66/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/camera/test_camera_params.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/test/camera/test_camera_params.cc: In member function ‘virtual void testCameraParamss_basicConstructionCal3DS2_Test::TestBody()’:
+/home/bonnie/DynOSAM/src/dynosam/test/camera/test_camera_params.cc:90:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+   90 |   for (int c = 0u; c < 4u; c++)
+      |                    ~~^~~~
+/home/bonnie/DynOSAM/src/dynosam/test/camera/test_camera_params.cc: In member function ‘virtual void testCameraParams_parseYAML_Test::TestBody()’:
+/home/bonnie/DynOSAM/src/dynosam/test/camera/test_camera_params.cc:108:16: warning: unused variable ‘frame_rate_expected’ [-Wunused-variable]
+  108 |   const double frame_rate_expected = 1.0 / 20.0;
+      |                ^~~~~~~~~~~~~~~~~~~
+
+[67/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/camera/test_camera.cc.o[K
+[68/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DataProviderFactory.cc.o[K
+[69/127] Building CXX object CMakeFiles/dyno_sam.dir/example/dyno_sam.cc.o[K
+[70/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/test_main.cc.o[K
+[71/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/DataProvider.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/VirtualKittidataProvider.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/Pose3FlowProjectionFactor.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/ObjectKinematicFactor.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/LandmarkMotionPoseFactor.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/ZEDDataProvider.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/imu/ThreadSafeImuBuffer.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/ProjectAriaDataProvider.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/FrontendModule.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/FrontendParams.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/StereoMatcher.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/FeatureTracker.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/ORBextractor.cc.o[K
+[72/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/ObjectTracker.cc.o[K
+[73/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/ORBextractor.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/ORBextractor.cc: In member function ‘std::vector<cv::KeyPoint> dyno::ORBextractor::DistributeOctTree(const std::vector<cv::KeyPoint>&, const int&, const int&, const int&, const int&, const int&, const int&)’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/ORBextractor.cc:547:65: warning: unused parameter ‘level’ [-Wunused-parameter]
+  547 |                                                      const int& level)
+      |                                                      ~~~~~~~~~~~^~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/ORBextractor.cc: In member function ‘void dyno::ORBextractor::operator()(cv::InputArray, cv::InputArray, std::vector<cv::KeyPoint>&, cv::OutputArray)’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/ORBextractor.cc:1094:12: warning: variable ‘fea_des_time’ set but not used [-Wunused-but-set-variable]
+ 1094 |     double fea_des_time;
+      |            ^~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/ORBextractor.cc:1054:10: warning: variable ‘fea_det_time’ set but not used [-Wunused-but-set-variable]
+ 1054 |   double fea_det_time;
+      |          ^~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/ORBextractor.cc:1040:61: warning: unused parameter ‘_mask’ [-Wunused-parameter]
+ 1040 | void ORBextractor::operator()(InputArray _image, InputArray _mask, vector<KeyPoint>& _keypoints,
+      |                                                  ~~~~~~~~~~~^~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/ORBextractor.cc: At global scope:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/ORBextractor.cc:1028:13: warning: ‘void dyno::computeDescriptors(const cv::Mat&, std::vector<cv::KeyPoint>&, cv::Mat&, const std::vector<cv::Point_<int> >&)’ defined but not used [-Wunused-function]
+ 1028 | static void computeDescriptors(const Mat& image, vector<KeyPoint>& keypoints, Mat& descriptors,
+      |             ^~~~~~~~~~~~~~~~~~
+
+[74/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/Pose3FlowProjectionFactor.cc.o[K
+[75/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_types.cc.o[K
+[76/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/rgbd/WorldPoseEstimator.cc.o[K
+[77/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/LandmarkMotionPoseFactor.cc.o[K
+[78/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/imu/ThreadSafeImuBuffer.cc.o[K
+[79/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/StereoMatcher.cc.o[K
+[79/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/MotionSolver.cc.o[K
+[79/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/VisionTools.cc.o[K
+[79/127] Building CXX object CMakeFiles/dynosam.dir/src/common/ImageContainer.cc.o[K
+[79/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/Frontend-Definitions.cc.o[K
+[79/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/StaticFeatureTracker.cc.o[K
+[79/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/FeatureTrackerBase.cc.o[K
+[79/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/TrackerParams.cc.o[K
+[80/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/ObjectTracker.cc.o[K
+[80/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/thread_safety/test_threadsafe_imu_buffer.cc.o[K
+[81/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/RGBDBackendModule.cc.o[K
+[82/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/ZEDDataProvider.cc.o[K
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:9,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/local/zed/include/sl/Camera.hpp:1288:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1288 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1439:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1439 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1625:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1625 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1840:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1840 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1844:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1844 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:1848:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 1848 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2156:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2156 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2160:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2160 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp:2164:20: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+ 2164 |             struct {
+      |                    ^
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::operator+(sl::Timestamp, const sl::Timestamp&)’:
+/usr/local/zed/include/sl/Camera.hpp:2719:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2719 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::operator-(sl::Timestamp, const sl::Timestamp&)’:
+/usr/local/zed/include/sl/Camera.hpp:2724:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2724 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::operator/(sl::Timestamp, const sl::Timestamp&)’:
+/usr/local/zed/include/sl/Camera.hpp:2729:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2729 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::operator*(sl::Timestamp, const sl::Timestamp&)’:
+/usr/local/zed/include/sl/Camera.hpp:2734:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2734 |         return lhs;
+      |                ^~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘sl::Timestamp sl::getCurrentTimeStamp()’:
+/usr/local/zed/include/sl/Camera.hpp:2768:16: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 2768 |         return current_ts;
+      |                ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In function ‘cudaError sl::__cudaSafeCall(cudaError, const char*, const char*, int)’:
+/usr/local/zed/include/sl/Camera.hpp:2775:89: warning: unused parameter ‘file’ [-Wunused-parameter]
+ 2775 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+      |                                                                             ~~~~~~~~~~~~^~~~
+/usr/local/zed/include/sl/Camera.hpp:2775:105: warning: unused parameter ‘line’ [-Wunused-parameter]
+ 2775 |     static inline cudaError __cudaSafeCall(cudaError err, const char *func, const char *file, const int line) {
+      |                                                                                               ~~~~~~~~~~^~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function ‘sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const’:
+/usr/local/zed/include/sl/Camera.hpp:3880:62: warning: implicitly-declared ‘sl::Transform& sl::Transform::operator=(const sl::Transform&)’ is deprecated [-Wdeprecated-copy]
+ 3880 |             output_calibration_parameters.stereo_transform = stereo_transform;
+      |                                                              ^~~~~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:3748:9: note: because ‘sl::Transform’ has user-provided ‘sl::Transform::Transform(const sl::Transform&)’
+ 3748 |         Transform(const Transform &motion);
+      |         ^~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function ‘sl::Transform& sl::Transform::operator=(const sl::Transform&)’:
+/usr/local/zed/include/sl/Camera.hpp:3737:60: warning: implicitly-declared ‘sl::Matrix4f& sl::Matrix4f::operator=(const sl::Matrix4f&)’ is deprecated [-Wdeprecated-copy]
+ 3737 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Transform : public Matrix4f {
+      |                                                            ^~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1461:9: note: because ‘sl::Matrix4f’ has user-provided ‘sl::Matrix4f::Matrix4f(const sl::Matrix4f&)’
+ 1461 |         Matrix4f(const Matrix4f &mat);
+      |         ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In member function ‘sl::CalibrationParameters sl::CalibrationParameters::scale(const sl::Resolution&) const’:
+/usr/local/zed/include/sl/Camera.hpp:3880:62: note: synthesized method ‘sl::Transform& sl::Transform::operator=(const sl::Transform&)’ first required here
+ 3880 |             output_calibration_parameters.stereo_transform = stereo_transform;
+      |                                                              ^~~~~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp: In constructor ‘sl::SVOData::SVOData(std::string&, std::vector<unsigned char>&, sl::Timestamp)’:
+/usr/local/zed/include/sl/Camera.hpp:6331:28: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 6331 |             timestamp_ns = timestamp_ns_;
+      |                            ^~~~~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:40: note:   initializing argument 1 of ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                              ~~~~~~~~~~^~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:9,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/local/zed/include/sl/Camera.hpp: At global scope:
+/usr/local/zed/include/sl/Camera.hpp:8920:12: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 8920 |     inline const void /*@cond SHOWHIDDEN*/SL_SDK_EXPORT/*@endcond*/ getZEDSDKBuildVersion(int &major, int& minor, int& patch) {
+      |            ^~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:62:43: warning: extra ‘;’ [-Wpedantic]
+   62 |     DYNO_POINTER_TYPEDEFS(ZEDDataProvider);
+      |                                           ^
+      |                                           -
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:9,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/local/zed/include/sl/Camera.hpp: In instantiation of ‘std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = sl::Objects&; _Tp = sl::Objects; std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> = std::optional<sl::Objects>&; typename std::decay<_Func>::type = std::decay<sl::Objects&>::type; typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type = sl::Objects; typename std::remove_reference<_Tuple>::type = sl::Objects]’:
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:310:35:   required from here
+/usr/local/zed/include/sl/Camera.hpp:5232:60: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 5232 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Objects {
+      |                                                            ^~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:40: note:   initializing argument 1 of ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                              ~~~~~~~~~~^~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/Types.hpp:40,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/DataProvider.hpp:7,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/include/c++/11/optional:808:28: note: synthesized method ‘sl::Objects& sl::Objects::operator=(const sl::Objects&)’ first required here
+  808 |             this->_M_get() = std::forward<_Up>(__u);
+      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:9,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/local/zed/include/sl/Camera.hpp: In instantiation of ‘std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = sl::Bodies&; _Tp = sl::Bodies; std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> = std::optional<sl::Bodies>&; typename std::decay<_Func>::type = std::decay<sl::Bodies&>::type; typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type = sl::Bodies; typename std::remove_reference<_Tuple>::type = sl::Bodies]’:
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:320:34:   required from here
+/usr/local/zed/include/sl/Camera.hpp:5462:60: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 5462 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Bodies {
+      |                                                            ^~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:40: note:   initializing argument 1 of ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                              ~~~~~~~~~~^~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/Types.hpp:40,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/DataProvider.hpp:7,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/include/c++/11/optional:808:28: note: synthesized method ‘sl::Bodies& sl::Bodies::operator=(const sl::Bodies&)’ first required here
+  808 |             this->_M_get() = std::forward<_Up>(__u);
+      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:9,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/local/zed/include/sl/Camera.hpp: In instantiation of ‘void std::_Construct(_Tp*, _Args&& ...) [with _Tp = sl::Objects; _Args = {sl::Objects&}]’:
+/usr/include/c++/11/optional:251:19:   required from ‘constexpr void std::_Optional_payload_base<_Tp>::_M_construct(_Args&& ...) [with _Args = {sl::Objects&}; _Tp = sl::Objects]’
+/usr/include/c++/11/optional:419:52:   required from ‘constexpr void std::_Optional_base_impl<_Tp, _Dp>::_M_construct(_Args&& ...) [with _Args = {sl::Objects&}; _Tp = sl::Objects; _Dp = std::_Optional_base<sl::Objects, false, false>]’
+/usr/include/c++/11/optional:810:24:   required from ‘std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = sl::Objects&; _Tp = sl::Objects; std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> = std::optional<sl::Objects>&; typename std::decay<_Func>::type = std::decay<sl::Objects&>::type; typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type = sl::Objects; typename std::remove_reference<_Tuple>::type = sl::Objects]’
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:310:35:   required from here
+/usr/local/zed/include/sl/Camera.hpp:5232:60: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 5232 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Objects {
+      |                                                            ^~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+In file included from /usr/include/c++/11/bits/alloc_traits.h:33,
+                 from /usr/include/c++/11/ext/alloc_traits.h:34,
+                 from /usr/include/c++/11/bits/basic_string.h:40,
+                 from /usr/include/c++/11/string:55,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/glog/logging.h:43,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/Types.hpp:33,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/DataProvider.hpp:7,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/include/c++/11/bits/stl_construct.h:119:7: note: synthesized method ‘sl::Objects::Objects(const sl::Objects&)’ first required here
+  119 |       ::new((void*)__p) _Tp(std::forward<_Args>(__args)...);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:9,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/local/zed/include/sl/Camera.hpp: In instantiation of ‘void std::_Construct(_Tp*, _Args&& ...) [with _Tp = sl::Bodies; _Args = {sl::Bodies&}]’:
+/usr/include/c++/11/optional:251:19:   required from ‘constexpr void std::_Optional_payload_base<_Tp>::_M_construct(_Args&& ...) [with _Args = {sl::Bodies&}; _Tp = sl::Bodies]’
+/usr/include/c++/11/optional:419:52:   required from ‘constexpr void std::_Optional_base_impl<_Tp, _Dp>::_M_construct(_Args&& ...) [with _Args = {sl::Bodies&}; _Tp = sl::Bodies; _Dp = std::_Optional_base<sl::Bodies, false, false>]’
+/usr/include/c++/11/optional:810:24:   required from ‘std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = sl::Bodies&; _Tp = sl::Bodies; std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> = std::optional<sl::Bodies>&; typename std::decay<_Func>::type = std::decay<sl::Bodies&>::type; typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type = sl::Bodies; typename std::remove_reference<_Tuple>::type = sl::Bodies]’
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:320:34:   required from here
+/usr/local/zed/include/sl/Camera.hpp:5462:60: warning: implicitly-declared ‘constexpr sl::Timestamp::Timestamp(const sl::Timestamp&)’ is deprecated [-Wdeprecated-copy]
+ 5462 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ Bodies {
+      |                                                            ^~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2640:20: note: because ‘sl::Timestamp’ has user-provided ‘sl::Timestamp& sl::Timestamp::operator=(sl::Timestamp)’
+ 2640 |         Timestamp& operator=(Timestamp other) {
+      |                    ^~~~~~~~
+In file included from /usr/include/c++/11/bits/alloc_traits.h:33,
+                 from /usr/include/c++/11/ext/alloc_traits.h:34,
+                 from /usr/include/c++/11/bits/basic_string.h:40,
+                 from /usr/include/c++/11/string:55,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/glog/logging.h:43,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/Types.hpp:33,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/DataProvider.hpp:7,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/include/c++/11/bits/stl_construct.h:119:7: note: synthesized method ‘sl::Bodies::Bodies(const sl::Bodies&)’ first required here
+  119 |       ::new((void*)__p) _Tp(std::forward<_Args>(__args)...);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:9,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/local/zed/include/sl/Camera.hpp: In instantiation of ‘static _OI std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m(_II, _II, _OI) [with _II = const sl::ObjectData*; _OI = sl::ObjectData*]’:
+/usr/include/c++/11/bits/stl_algobase.h:495:30:   required from ‘_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const sl::ObjectData*; _OI = sl::ObjectData*]’
+/usr/include/c++/11/bits/stl_algobase.h:522:42:   required from ‘_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const sl::ObjectData*; _OI = sl::ObjectData*]’
+/usr/include/c++/11/bits/stl_algobase.h:530:31:   required from ‘_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const sl::ObjectData*, std::vector<sl::ObjectData> >; _OI = __gnu_cxx::__normal_iterator<sl::ObjectData*, std::vector<sl::ObjectData> >]’
+/usr/include/c++/11/bits/stl_algobase.h:620:7:   required from ‘_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const sl::ObjectData*, std::vector<sl::ObjectData> >; _OI = __gnu_cxx::__normal_iterator<sl::ObjectData*, std::vector<sl::ObjectData> >]’
+/usr/include/c++/11/bits/vector.tcc:238:31:   required from ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = sl::ObjectData; _Alloc = std::allocator<sl::ObjectData>]’
+/usr/local/zed/include/sl/Camera.hpp:5232:60:   required from ‘std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = sl::Objects&; _Tp = sl::Objects; std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> = std::optional<sl::Objects>&; typename std::decay<_Func>::type = std::decay<sl::Objects&>::type; typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type = sl::Objects; typename std::remove_reference<_Tuple>::type = sl::Objects]’
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:310:35:   required from here
+/usr/local/zed/include/sl/Camera.hpp:4827:60: warning: implicitly-declared ‘constexpr sl::Vector3<float>& sl::Vector3<float>::operator=(const sl::Vector3<float>&)’ is deprecated [-Wdeprecated-copy]
+ 4827 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ ObjectData {
+      |                                                            ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1909:23: note: because ‘sl::Vector3<float>’ has user-provided ‘sl::Vector3<T>::Vector3(const sl::Vector3<T>&) [with T = float]’
+ 1909 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                       ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:4827:60: warning: implicitly-declared ‘constexpr sl::Vector3<float>& sl::Vector3<float>::operator=(const sl::Vector3<float>&)’ is deprecated [-Wdeprecated-copy]
+ 4827 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ ObjectData {
+      |                                                            ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1909:23: note: because ‘sl::Vector3<float>’ has user-provided ‘sl::Vector3<T>::Vector3(const sl::Vector3<T>&) [with T = float]’
+ 1909 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                       ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:4827:60: warning: implicitly-declared ‘constexpr sl::Vector3<float>& sl::Vector3<float>::operator=(const sl::Vector3<float>&)’ is deprecated [-Wdeprecated-copy]
+ 4827 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ ObjectData {
+      |                                                            ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1909:23: note: because ‘sl::Vector3<float>’ has user-provided ‘sl::Vector3<T>::Vector3(const sl::Vector3<T>&) [with T = float]’
+ 1909 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                       ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:4827:60: warning: implicitly-declared ‘constexpr sl::Vector3<float>& sl::Vector3<float>::operator=(const sl::Vector3<float>&)’ is deprecated [-Wdeprecated-copy]
+ 4827 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ ObjectData {
+      |                                                            ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1909:23: note: because ‘sl::Vector3<float>’ has user-provided ‘sl::Vector3<T>::Vector3(const sl::Vector3<T>&) [with T = float]’
+ 1909 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                       ^~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/glog/logging.h:43,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/Types.hpp:33,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/DataProvider.hpp:7,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/include/c++/11/bits/stl_algobase.h:385:25: note: synthesized method ‘sl::ObjectData& sl::ObjectData::operator=(const sl::ObjectData&)’ first required here
+  385 |               *__result = *__first;
+      |               ~~~~~~~~~~^~~~~~~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCameraConfig.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/ZEDCamera.hpp:6,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:9,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/local/zed/include/sl/Camera.hpp: In instantiation of ‘static _OI std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m(_II, _II, _OI) [with _II = const sl::BodyData*; _OI = sl::BodyData*]’:
+/usr/include/c++/11/bits/stl_algobase.h:495:30:   required from ‘_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const sl::BodyData*; _OI = sl::BodyData*]’
+/usr/include/c++/11/bits/stl_algobase.h:522:42:   required from ‘_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const sl::BodyData*; _OI = sl::BodyData*]’
+/usr/include/c++/11/bits/stl_algobase.h:530:31:   required from ‘_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const sl::BodyData*, std::vector<sl::BodyData> >; _OI = __gnu_cxx::__normal_iterator<sl::BodyData*, std::vector<sl::BodyData> >]’
+/usr/include/c++/11/bits/stl_algobase.h:620:7:   required from ‘_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const sl::BodyData*, std::vector<sl::BodyData> >; _OI = __gnu_cxx::__normal_iterator<sl::BodyData*, std::vector<sl::BodyData> >]’
+/usr/include/c++/11/bits/vector.tcc:238:31:   required from ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = sl::BodyData; _Alloc = std::allocator<sl::BodyData>]’
+/usr/local/zed/include/sl/Camera.hpp:5462:60:   required from ‘std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = sl::Bodies&; _Tp = sl::Bodies; std::enable_if_t<__and_v<std::__not_<std::is_same<std::optional<_Tp>, typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type> >, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_Func>::type> > >, std::is_constructible<_Tp, _Up>, std::is_assignable<_T1&, _U1> >, std::optional<_Tp>&> = std::optional<sl::Bodies>&; typename std::decay<_Func>::type = std::decay<sl::Bodies&>::type; typename std::remove_cv<typename std::remove_reference<_Tuple>::type>::type = sl::Bodies; typename std::remove_reference<_Tuple>::type = sl::Bodies]’
+/home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:320:34:   required from here
+/usr/local/zed/include/sl/Camera.hpp:5278:60: warning: implicitly-declared ‘constexpr sl::Vector3<float>& sl::Vector3<float>::operator=(const sl::Vector3<float>&)’ is deprecated [-Wdeprecated-copy]
+ 5278 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ BodyData {
+      |                                                            ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1909:23: note: because ‘sl::Vector3<float>’ has user-provided ‘sl::Vector3<T>::Vector3(const sl::Vector3<T>&) [with T = float]’
+ 1909 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                       ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:5278:60: warning: implicitly-declared ‘constexpr sl::Vector3<float>& sl::Vector3<float>::operator=(const sl::Vector3<float>&)’ is deprecated [-Wdeprecated-copy]
+ 5278 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ BodyData {
+      |                                                            ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1909:23: note: because ‘sl::Vector3<float>’ has user-provided ‘sl::Vector3<T>::Vector3(const sl::Vector3<T>&) [with T = float]’
+ 1909 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                       ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:5278:60: warning: implicitly-declared ‘constexpr sl::Vector3<float>& sl::Vector3<float>::operator=(const sl::Vector3<float>&)’ is deprecated [-Wdeprecated-copy]
+ 5278 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ BodyData {
+      |                                                            ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1909:23: note: because ‘sl::Vector3<float>’ has user-provided ‘sl::Vector3<T>::Vector3(const sl::Vector3<T>&) [with T = float]’
+ 1909 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                       ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:5278:60: warning: implicitly-declared ‘constexpr sl::Vector3<float>& sl::Vector3<float>::operator=(const sl::Vector3<float>&)’ is deprecated [-Wdeprecated-copy]
+ 5278 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ BodyData {
+      |                                                            ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:1909:23: note: because ‘sl::Vector3<float>’ has user-provided ‘sl::Vector3<T>::Vector3(const sl::Vector3<T>&) [with T = float]’
+ 1909 |         _FCT_CPU_GPU_ Vector3<T>(const Vector3<T> &v) {
+      |                       ^~~~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:5278:60: warning: implicitly-declared ‘constexpr sl::Vector4<float>& sl::Vector4<float>::operator=(const sl::Vector4<float>&)’ is deprecated [-Wdeprecated-copy]
+ 5278 |     class /*@cond SHOWHIDDEN*/ SL_CORE_EXPORT /*@endcond*/ BodyData {
+      |                                                            ^~~~~~~~
+/usr/local/zed/include/sl/Camera.hpp:2228:23: note: because ‘sl::Vector4<float>’ has user-provided ‘sl::Vector4<T>::Vector4(const sl::Vector4<T>&) [with T = float]’
+ 2228 |         _FCT_CPU_GPU_ Vector4<T>(const Vector4<T> &v) {
+      |                       ^~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/glog/logging.h:43,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/common/Types.hpp:33,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/DataProvider.hpp:7,
+                 from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp:5,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/dataprovider/ZEDDataProvider.cc:3:
+/usr/include/c++/11/bits/stl_algobase.h:385:25: note: synthesized method ‘sl::BodyData& sl::BodyData::operator=(const sl::BodyData&)’ first required here
+  385 |               *__result = *__first;
+      |               ~~~~~~~~~~^~~~~~~~~~
+
+[83/127] Building CXX object CMakeFiles/dynosam.dir/src/dataprovider/ProjectAriaDataProvider.cc.o[K
+[84/127] Building CXX object CMakeFiles/dynosam.dir/src/factors/ObjectKinematicFactor.cc.o[K
+[85/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/TrackerParams.cc.o[K
+[86/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/Frontend-Definitions.cc.o[K
+[87/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/FrontendParams.cc.o[K
+[87/127] Building CXX object CMakeFiles/dynosam_test_dataproviders.dir/test/test_main.cc.o[K
+[87/127] Building CXX object CMakeFiles/dynosam_test_backend.dir/test/test_main.cc.o[K
+[87/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/test_main.cc.o[K
+[87/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/internal/simulator.cc.o[K
+[87/127] Building CXX object CMakeFiles/dynosam_test_backend.dir/test/backend/test_factors.cc.o[K
+[87/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/internal/simulator.cc.o[K
+[87/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/internal/tmp_file.cc.o[K
+[88/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/FrontendModule.cc.o[K
+[88/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_structured_containers.cc.o[K
+[89/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/internal/tmp_file.cc.o[K
+[89/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_code_concepts.cc.o[K
+[90/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/FeatureTracker.cc.o[K
+[91/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/thread_safety/test_threadsafe_imu_buffer.cc.o[K
+[92/127] Building CXX object CMakeFiles/dynosam.dir/src/common/ImageContainer.cc.o[K
+[93/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_structured_containers.cc.o[K
+[93/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/test_main.cc.o[K
+[93/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/thread_safety/thread_safe_queue_tests.cc.o[K
+[93/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/thread_safety/thread_safe_temporal_buffer_test.cc.o[K
+[93/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/internal/tmp_file.cc.o[K
+[94/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/internal/tmp_file.cc.o[K
+[94/127] Building CXX object CMakeFiles/dynosam_test_algorithms.dir/test/internal/simulator.cc.o[K
+[95/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/StaticFeatureTracker.cc.o[K
+[96/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/FeatureTrackerBase.cc.o[K
+[97/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/thread_safety/thread_safe_queue_tests.cc.o[K
+[98/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/internal/simulator.cc.o[K
+[98/127] Building CXX object CMakeFiles/dynosam_test_dataproviders.dir/test/internal/simulator.cc.o[K
+[98/127] Building CXX object CMakeFiles/dynosam_test_vision_map.dir/test/test_main.cc.o[K
+[98/127] Building CXX object CMakeFiles/dynosam_test_backend.dir/test/backend/test_dynamic_point_symbol.cc.o[K
+[98/127] Building CXX object CMakeFiles/dynosam_test_backend.dir/test/backend/test_backend_structures.cc.o[K
+[99/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/internal/simulator.cc.o[K
+[100/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/VisionTools.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/VisionTools.cc: In function ‘std::vector<std::vector<int> > dyno::vision_tools::trackDynamic(const dyno::FrontendParams&, const dyno::Frame&, dyno::Frame::Ptr)’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/VisionTools.cc:329:12: warning: unused variable ‘obj_center_depth’ [-Wunused-variable]
+  329 |     double obj_center_depth = 0, sf_min = 100, sf_max = 0, sf_mean = 0,
+      |            ^~~~~~~~~~~~~~~~
+
+[101/127] Building CXX object CMakeFiles/dynosam_test_backend.dir/test/test_main.cc.o[K
+[102/127] Building CXX object CMakeFiles/dynosam_test_dataproviders.dir/test/test_main.cc.o[K
+[102/127] Building CXX object CMakeFiles/dynosam_test_algorithms.dir/test/test_main.cc.o[K
+[103/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/test_main.cc.o[K
+[104/127] Building CXX object CMakeFiles/dynosam.dir/src/backend/FactorGraphTools.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/backend/FactorGraphTools.cc: In function ‘std::pair<dyno::factor_graph_tools::SparsityStats, cv::Mat> dyno::factor_graph_tools::computeRFactor(gtsam::GaussianFactorGraph::shared_ptr, gtsam::Ordering)’:
+/home/bonnie/DynOSAM/src/dynosam/src/backend/FactorGraphTools.cc:139:1: warning: control reaches end of non-void function [-Wreturn-type]
+  139 | }
+      | ^
+
+[105/127] Building CXX object CMakeFiles/dynosam_test_thread_safety.dir/test/thread_safety/thread_safe_temporal_buffer_test.cc.o[K
+[106/127] Building CXX object CMakeFiles/dynosam_test_backend.dir/test/backend/test_dynamic_point_symbol.cc.o[K
+[107/127] Building CXX object CMakeFiles/dynosam_test_algorithms.dir/test/internal/simulator.cc.o[K
+[108/127] Building CXX object CMakeFiles/dynosam.dir/src/frontend/vision/MotionSolver.cc.o[K
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc: In member function ‘dyno::Pose3SolverResult dyno::EgoMotionSolver::geometricOutlierRejection3d2d(const AbsolutePoseCorrespondences&, std::optional<gtsam::Rot3>)’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc:221:32: warning: unused parameter ‘R_curr_ref’ [-Wunused-parameter]
+  221 |     std::optional<gtsam::Rot3> R_curr_ref) {
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc: In member function ‘dyno::Pose3SolverResult dyno::ObjectMotionSovler::geometricOutlierRejection3d2d(dyno::Frame::Ptr, dyno::Frame::Ptr, const gtsam::Pose3&, dyno::ObjectId)’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc:442:8: warning: unused variable ‘corr_result’ [-Wunused-variable]
+  442 |   bool corr_result = frame_k->getDynamicCorrespondences(
+      |        ^~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc: In member function ‘dyno::Pose3SolverResult dyno::ObjectMotionSovler::geometricOutlierRejection3d3d(dyno::Frame::Ptr, dyno::Frame::Ptr, const gtsam::Pose3&, dyno::ObjectId)’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc:543:8: warning: unused variable ‘corr_result’ [-Wunused-variable]
+  543 |   bool corr_result = frame_k->getDynamicCorrespondences(
+      |        ^~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc:547:17: warning: unused variable ‘n_matches’ [-Wunused-variable]
+  547 |   const size_t& n_matches = dynamic_correspondences.size();
+      |                 ^~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc: In member function ‘dyno::Pose3SolverResult dyno::ObjectMotionSovler::motionModelOutlierRejection3d2d(const AbsolutePoseCorrespondences&, dyno::Frame::Ptr, dyno::Frame::Ptr, const gtsam::Pose3&, dyno::ObjectId)’:
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc:566:38: warning: unused parameter ‘frame_k’ [-Wunused-parameter]
+  566 |     Frame::Ptr frame_k_1, Frame::Ptr frame_k, const gtsam::Pose3& T_world_k,
+      |                           ~~~~~~~~~~~^~~~~~~
+In file included from /home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver.hpp:377,
+                 from /home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc:31:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp: In instantiation of ‘dyno::OpticalFlowAndPoseOptimizer::Result dyno::OpticalFlowAndPoseOptimizer::optimize(dyno::Frame::Ptr, dyno::Frame::Ptr, const TrackletIds&, const gtsam::Pose3&) const [with CALIBRATION = gtsam::Cal3_S2; dyno::OpticalFlowAndPoseOptimizer::Result = dyno::SolverResult<dyno::OpticalFlowAndPoseOptimizer::ResultType>; dyno::Frame::Ptr = std::shared_ptr<dyno::Frame>; dyno::TrackletIds = std::vector<long int>]’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:271:34:   required from ‘dyno::OpticalFlowAndPoseOptimizer::Result dyno::OpticalFlowAndPoseOptimizer::optimizeAndUpdate(dyno::Frame::Ptr, dyno::Frame::Ptr, const TrackletIds&, const gtsam::Pose3&) const [with CALIBRATION = gtsam::Cal3_S2; dyno::OpticalFlowAndPoseOptimizer::Result = dyno::SolverResult<dyno::OpticalFlowAndPoseOptimizer::ResultType>; dyno::Frame::Ptr = std::shared_ptr<dyno::Frame>; dyno::TrackletIds = std::vector<long int>]’
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc:503:79:   required from here
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:233:10: warning: unused variable ‘initial_size’ [-Wunused-variable]
+  233 |   size_t initial_size = graph.size();
+      |          ^~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:234:10: warning: unused variable ‘inlier_size’ [-Wunused-variable]
+  234 |   size_t inlier_size = mutable_graph.size();
+      |          ^~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp: In instantiation of ‘dyno::Pose3SolverResult dyno::MotionOnlyRefinementOptimizer::optimize(dyno::Frame::Ptr, dyno::Frame::Ptr, const TrackletIds&, dyno::ObjectId, const gtsam::Pose3&, const dyno::MotionOnlyRefinementOptimizer::RefinementSolver&) const [with CALIBRATION = gtsam::Cal3_S2; dyno::Pose3SolverResult = dyno::SolverResult<gtsam::Pose3>; dyno::Frame::Ptr = std::shared_ptr<dyno::Frame>; dyno::TrackletIds = std::vector<long int>; dyno::ObjectId = int]’:
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:486:44:   required from ‘dyno::Pose3SolverResult dyno::MotionOnlyRefinementOptimizer::optimizeAndUpdate(dyno::Frame::Ptr, dyno::Frame::Ptr, const TrackletIds&, dyno::ObjectId, const gtsam::Pose3&, const dyno::MotionOnlyRefinementOptimizer::RefinementSolver&) const [with CALIBRATION = gtsam::Cal3_S2; dyno::Pose3SolverResult = dyno::SolverResult<gtsam::Pose3>; dyno::Frame::Ptr = std::shared_ptr<dyno::Frame>; dyno::TrackletIds = std::vector<long int>; dyno::ObjectId = int]’
+/home/bonnie/DynOSAM/src/dynosam/src/frontend/vision/MotionSolver.cc:518:69:   required from here
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:339:25: warning: variable ‘lmk_k_1_local’ set but not used [-Wunused-but-set-variable]
+  339 |     const gtsam::Point3 lmk_k_1_local =
+      |                         ^~~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:341:25: warning: variable ‘lmk_k_local’ set but not used [-Wunused-but-set-variable]
+  341 |     const gtsam::Point3 lmk_k_local = frame_k->backProjectToCamera(tracklet_id);
+      |                         ^~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:443:16: warning: unused variable ‘initial_size’ [-Wunused-variable]
+  443 |   const size_t initial_size = graph.size();
+      |                ^~~~~~~~~~~~
+/home/bonnie/DynOSAM/src/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp:444:16: warning: unused variable ‘inlier_size’ [-Wunused-variable]
+  444 |   const size_t inlier_size = mutable_graph.size();
+      |                ^~~~~~~~~~~
+
+[108/127] Linking CXX shared library libdynosam.so[K
+[109/127] Building CXX object CMakeFiles/dynosam_test_backend.dir/test/backend/test_factors.cc.o[K
+[110/127] Building CXX object CMakeFiles/dynosam_test_dataproviders.dir/test/internal/simulator.cc.o[K
+[111/127] Building CXX object CMakeFiles/dynosam_test_camera.dir/test/test_main.cc.o[K
+[112/127] Building CXX object CMakeFiles/dynosam_test_core_utils.dir/test/core_utils/test_code_concepts.cc.o[K
+[113/127] Building CXX object CMakeFiles/dynosam_test_backend.dir/test/backend/test_backend_structures.cc.o[K
+[114/127] Building CXX object CMakeFiles/dynosam_test_vision_map.dir/test/test_main.cc.o[K
+[115/127] Linking CXX shared library libdynosam.so[K
+[115/127] Linking CXX executable dyno_sam[K
+[115/127] Linking CXX executable dynosam_test_core_utils[K
+[115/127] Linking CXX executable dynosam_test_camera[K
+[115/127] Linking CXX executable dynosam_test_vision_map[K
+[115/127] Linking CXX executable dynosam_test_thread_safety[K
+[115/127] Linking CXX executable dynosam_test_dataproviders[K
+[115/127] Linking CXX executable dynosam_test_backend[K
+[115/127] Linking CXX executable dynosam_test_pipelines_params[K
+[115/127] Linking CXX executable dynosam_test_visualization[K
+[115/127] Linking CXX executable dynosam_test_zed_camera[K
+[116/127] Building CXX object CMakeFiles/dynosam_test_algorithms.dir/test/test_main.cc.o[K
+[116/127] Linking CXX executable dynosam_test_algorithms[K
+[117/127] Linking CXX executable dynosam_test_dataproviders[K
+[118/127] Linking CXX executable dynosam_test_visualization[K
+[119/127] Linking CXX executable dyno_sam[K
+/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12
+
+[120/127] Linking CXX executable dynosam_test_zed_camera[K
+[121/127] Linking CXX executable dynosam_test_thread_safety[K
+[122/127] Linking CXX executable dynosam_test_camera[K
+[123/127] Linking CXX executable dynosam_test_vision_map[K
+/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12
+
+[124/127] Linking CXX executable dynosam_test_algorithms[K
+[125/127] Linking CXX executable dynosam_test_pipelines_params[K
+/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12
+
+[126/127] Linking CXX executable dynosam_test_core_utils[K
+/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12
+
+[127/127] Linking CXX executable dynosam_test_backend[K
+/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12
+-- Install configuration: "RelWithDebinfo"
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/environment/library_path.sh
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/environment/library_path.dsv
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/Accessor.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/RGBDBackendModule.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/BackendModule.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/BackendDefinitions.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/DynamicPointSymbol.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/BackendInputPacket.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/Formulation-impl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/BackendParams.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/Accessor-impl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/Formulation.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/rgbd
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/rgbd/WorldMotionEstimator.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/rgbd/WorldPoseEstimator.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/BackendPipeline.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/FactorGraphTools.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/backend/BackendOutputPacket.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/logger
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/logger/Logger.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/visualizer
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/visualizer/Visualizer-Definitions.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/visualizer/VisualizerPipelines.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/visualizer/ColourMap.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/visualizer/Colour.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/visualizer/OpenCVFrontendDisplay.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/visualizer/Display.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/ThreadSafeTemporalBuffer.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/ThreadSafeQueue.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/PipelineParams.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/PipelineModuleProcessor.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/PipelineBase.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/PipelinePayload.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/PipelineBase-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/PipelineManager.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/ThreadSafeTemporalBuffer-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/pipeline/PipelineSpinner.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/YamlParser.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Metrics.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/GtsamUtils.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/CsvParser.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Tuple.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/OpenCVUtils.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Variant.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/SafeCast.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/JsonUtils.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Numerical.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Histogram.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Macros.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/TimingStats.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Spinner.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Timing.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Statistics.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/utils/Accumulator.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/DataProviderUtils.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/DataInterfacePipeline.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/DatasetLoader.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/OMDDataProvider.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/ZEDDataProvider.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/DataProviderFactory.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/DataProvider.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/VirtualKittiDataProvider.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/ProjectAriaDataProvider.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/DatasetProvider.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/KittiDataProvider.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/dataprovider/ClusterSlamDataProvider.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/ImageTypes-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/ModuleBase.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/ModuleFactory.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/ImageContainer.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/StereoCamera.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/ImageTypes.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/StructuredContainers.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/ImageContainer-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/Flags.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/CameraParams.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/byte_tracker
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/byte_tracker/Lapjv.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/byte_tracker/README.md
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/byte_tracker/Track.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/byte_tracker/Rect.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/byte_tracker/KalmanFilter.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/byte_tracker/Detection.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/byte_tracker/ByteTracker.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/Types.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/ZEDCamera.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/MapNodes.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/SensorModels.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/PointCloudProcess.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/ZEDCameraConfig.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/Exceptions.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/GroundTruthPacket.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/Camera.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/DynamicObjects.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/Algorithms.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/MapNodes-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/common/Map.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/FrontendOutputPacket.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/anms
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/anms/nanoflann.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/anms/range-tree
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/anms/range-tree/lrtypes.h
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/anms/anms.h
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/README.md
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/LICENSE
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/anms/NonMaximumSuppression.h
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/RGBDInstanceFrontendModule.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/UndistortRectifier.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/OccupancyGrid2D.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/FeatureTrackerBase.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/Vision-Definitions.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/VisionTools-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/ORBextractor.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/StereoMatchingParams.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/TrackerParams.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/Frame-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/Frame.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/VisionTools.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/MotionSolver.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/StereoMatcher.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/FeatureDetector.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/ObjectTracker.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/FeatureTracker.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/StaticFeatureTracker.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/vision/Feature.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/FrontendInputPacket.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/RGBDInstance-Definitions.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/FrontendParams.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/Frontend-Definitions.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/FrontendModule.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/imu
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/imu/ThreadSafeImuBuffer-inl.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/imu/ThreadSafeImuBuffer.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/imu/Imu-Definitions.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/imu/ImuMeasurements.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/frontend/FrontendPipeline.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/factors
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/factors/LandmarkMotionTernaryFactor.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/factors/LandmarkMotionPoseFactor.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/factors/ObjectKinematicFactor.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/factors/LandmarkPoseSmoothingFactor.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/factors/Pose3FlowProjectionFactor.h
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/test
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/test/simulator.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/test/helpers.hpp
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/include/dynosam/test/tmp_file.hpp
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/lib/libdynosam.so
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/lib/libdynosam.so" to ""
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/params
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/params/frontend.flags
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/params/DatasetParams.yaml
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/params/PipelineParams.yaml
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/params/CameraParams.yaml
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/params/pipeline.flags
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/params/FrontendParams.yaml
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/params/backend.flags
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/lib/dynosam/dyno_sam
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/lib/dynosam/dyno_sam" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_core_utils
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_core_utils" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_camera
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_camera" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_thread_safety
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_thread_safety" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_dataproviders
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_dataproviders" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_backend
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_backend" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_algorithms
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_algorithms" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_vision_map
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_vision_map" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_pipelines_params
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_pipelines_params" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_visualization
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_visualization" to ""
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_zed_camera
+-- Set runtime path of "/home/bonnie/DynOSAM/install/dynosam/test/dynosam_test_zed_camera" to ""
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/test/data/
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/test/data//sensor.yaml
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/test/data//tracking_params.yaml
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/ament_index/resource_index/package_run_dependencies/dynosam
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/ament_index/resource_index/parent_prefix_path/dynosam
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/environment/ament_prefix_path.sh
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/environment/path.sh
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/environment/path.dsv
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/local_setup.bash
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/local_setup.sh
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/local_setup.zsh
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/local_setup.dsv
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/package.dsv
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/ament_index/resource_index/packages/dynosam
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/cmake/dynosamConfig.cmake
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/cmake/dynosamConfig-version.cmake
+-- Installing: /home/bonnie/DynOSAM/install/dynosam/share/dynosam/package.xml

@@ -1,0 +1,6 @@
+[33mCMake Warning at cmake/OptionalPackage.cmake:19 (message):
+  roscpp not found.  Either disable or install the package
+Call Stack (most recent call first):
+  CMakeLists.txt:21 (find_optional)
+
+[0m

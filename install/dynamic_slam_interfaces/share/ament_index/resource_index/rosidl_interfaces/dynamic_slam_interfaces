@@ -1,0 +1,6 @@
+msg/MultiObjectOdometryPath.idl
+msg/MultiObjectOdometryPath.msg
+msg/ObjectOdometry.idl
+msg/ObjectOdometry.msg
+msg/ObjectOdometryPath.idl
+msg/ObjectOdometryPath.msg

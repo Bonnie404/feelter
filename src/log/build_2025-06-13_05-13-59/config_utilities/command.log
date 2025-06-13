@@ -1,0 +1,1 @@
+Invoking command in '/home/bonnie/DynOSAM/src/build/config_utilities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/config_utilities/config_utilities -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/config_utilities

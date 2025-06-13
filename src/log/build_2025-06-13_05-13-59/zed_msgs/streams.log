@@ -1,0 +1,34 @@
+[0.025s] Invoking command in '/home/bonnie/DynOSAM/src/build/zed_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/zed-ros2-interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/zed_msgs
+[0.244s] -- The C compiler identification is GNU 11.4.0
+[0.898s] -- The CXX compiler identification is GNU 11.4.0
+[1.434s] -- Detecting C compiler ABI info
+[1.610s] -- Detecting C compiler ABI info - done
+[1.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.616s] -- Detecting C compile features
+[1.617s] -- Detecting C compile features - done
+[1.619s] -- Detecting CXX compiler ABI info
+[1.833s] -- Detecting CXX compiler ABI info - done
+[1.840s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.840s] -- Detecting CXX compile features
+[1.841s] -- Detecting CXX compile features - done
+[1.846s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.059s] -- Found Python3: /home/linuxbrew/.linuxbrew/bin/python3 (found version "3.13.3") found components: Interpreter 
+[2.279s] Traceback (most recent call last):
+[2.282s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[2.282s]     from catkin_pkg.package import parse_package_string
+[2.282s] ModuleNotFoundError: No module named 'catkin_pkg'
+[2.287s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.287s]   execute_process(/home/linuxbrew/.linuxbrew/bin/python3
+[2.287s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.288s]   /home/bonnie/DynOSAM/src/zed-ros2-interfaces/package.xml
+[2.288s]   /home/bonnie/DynOSAM/src/build/zed_msgs/ament_cmake_core/package.cmake)
+[2.288s]   returned error code 1
+[2.288s] Call Stack (most recent call first):
+[2.288s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.288s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:42 (ament_package_xml)
+[2.288s]   CMakeLists.txt:61 (ament_auto_find_build_dependencies)
+[2.288s] 
+[2.288s] [0m
+[2.288s] -- Configuring incomplete, errors occurred!
+[2.289s] See also "/home/bonnie/DynOSAM/src/build/zed_msgs/CMakeFiles/CMakeOutput.log".
+[2.297s] Invoked command in '/home/bonnie/DynOSAM/src/build/zed_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/zed-ros2-interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/zed_msgs

@@ -1,0 +1,30 @@
+[0.023s] Invoking command in '/home/bonnie/DynOSAM/src/build/config_utilities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/config_utilities/config_utilities -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/config_utilities
+[0.250s] -- The C compiler identification is GNU 11.4.0
+[1.065s] -- The CXX compiler identification is GNU 11.4.0
+[1.506s] -- Detecting C compiler ABI info
+[1.688s] -- Detecting C compiler ABI info - done
+[1.696s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.696s] -- Detecting C compile features
+[1.696s] -- Detecting C compile features - done
+[1.699s] -- Detecting CXX compiler ABI info
+[1.899s] -- Detecting CXX compiler ABI info - done
+[1.904s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.904s] -- Detecting CXX compile features
+[1.905s] -- Detecting CXX compile features - done
+[1.940s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem system 
+[4.004s] [33mCMake Warning at cmake/OptionalPackage.cmake:19 (message):
+[4.004s]   roscpp not found.  Either disable or install the package
+[4.004s] Call Stack (most recent call first):
+[4.004s]   CMakeLists.txt:21 (find_optional)
+[4.004s] 
+[4.004s] [0m
+[4.018s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.018s] -- Checking for module 'libglog'
+[4.031s] --   Found libglog, version 0.4.0
+[4.058s] -- Eigen features enabled: TRUE
+[4.058s] -- ROS features enabled:   FALSE
+[4.058s] -- glog features enabled:  TRUE
+[5.514s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[5.531s] -- Configuring done
+[5.556s] -- Generating done
+[5.573s] -- Build files have been written to: /home/bonnie/DynOSAM/src/build/config_utilities

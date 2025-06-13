@@ -1,0 +1,177 @@
+[0.024s] Invoking command in '/home/bonnie/DynOSAM/build/dynamic_slam_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bonnie/DynOSAM/build/dynamic_slam_interfaces -- -j16 -l16
+[0.091s] 
+[0.165s] [0/2] cd /home/bonnie/DynOSAM/build/dynamic_slam_interfaces && /usr/bin/cmake -E copy_directory /home/bonnie/DynOSAM/build/dynamic_slam_interfaces/rosidl_generator_py/dynamic_slam_interfaces /home/bonnie/DynOSAM/build/dynamic_slam_interfaces/ament_cmake_python/dynamic_slam_interfaces/dynamic_slam_interfaces[K
+[0.165s] [1/2] cd /home/bonnie/DynOSAM/build/dynamic_slam_interfaces && /usr/bin/cmake -E copy_directory /home/bonnie/DynOSAM/build/dynamic_slam_interfaces/rosidl_generator_py/dynamic_slam_interfaces /home/bonnie/DynOSAM/build/dynamic_slam_interfaces/ament_cmake_python/dynamic_slam_interfaces/dynamic_slam_interfaces[K
+[0.527s] [1/2] cd /home/bonnie/DynOSAM/build/dynamic_slam_interfaces/ament_cmake_python/dynamic_slam_interfaces && /usr/bin/python3 setup.py egg_info[K
+[0.528s] [2/2] cd /home/bonnie/DynOSAM/build/dynamic_slam_interfaces/ament_cmake_python/dynamic_slam_interfaces && /usr/bin/python3 setup.py egg_info[K
+[0.528s] running egg_info
+[0.528s] writing dynamic_slam_interfaces.egg-info/PKG-INFO
+[0.528s] writing dependency_links to dynamic_slam_interfaces.egg-info/dependency_links.txt
+[0.528s] writing top-level names to dynamic_slam_interfaces.egg-info/top_level.txt
+[0.528s] reading manifest file 'dynamic_slam_interfaces.egg-info/SOURCES.txt'
+[0.528s] writing manifest file 'dynamic_slam_interfaces.egg-info/SOURCES.txt'
+[0.531s] Invoked command in '/home/bonnie/DynOSAM/build/dynamic_slam_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bonnie/DynOSAM/build/dynamic_slam_interfaces -- -j16 -l16
+[0.535s] Invoking command in '/home/bonnie/DynOSAM/build/dynamic_slam_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bonnie/DynOSAM/build/dynamic_slam_interfaces
+[0.544s] -- Install configuration: "RelWithDebinfo"
+[0.544s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamic_slam_interfaces
+[0.545s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces
+[0.545s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg
+[0.545s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/object_odometry_path.h
+[0.545s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/multi_object_odometry_path.h
+[0.545s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/object_odometry.h
+[0.546s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.546s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail
+[0.546s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__struct.h
+[0.546s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__functions.h
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__struct.h
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__functions.c
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__type_support.h
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__type_support.h
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__functions.h
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__functions.c
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__struct.h
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__functions.h
+[0.547s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__type_support.h
+[0.548s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__functions.c
+[0.548s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/environment/library_path.sh
+[0.548s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/environment/library_path.dsv
+[0.548s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/lib/libdynamic_slam_interfaces__rosidl_generator_c.so
+[0.548s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces
+[0.549s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg
+[0.549s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.549s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail
+[0.549s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__rosidl_typesupport_fastrtps_c.h
+[0.549s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__rosidl_typesupport_fastrtps_c.h
+[0.549s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__rosidl_typesupport_fastrtps_c.h
+[0.550s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/lib/libdynamic_slam_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.551s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces
+[0.551s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg
+[0.551s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.551s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/object_odometry_path.hpp
+[0.552s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/multi_object_odometry_path.hpp
+[0.552s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/object_odometry.hpp
+[0.552s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail
+[0.552s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__traits.hpp
+[0.553s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__traits.hpp
+[0.553s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__builder.hpp
+[0.553s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__struct.hpp
+[0.553s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__type_support.hpp
+[0.553s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__struct.hpp
+[0.554s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__traits.hpp
+[0.554s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__type_support.hpp
+[0.554s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__struct.hpp
+[0.554s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__type_support.hpp
+[0.554s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__builder.hpp
+[0.554s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__builder.hpp
+[0.555s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces
+[0.555s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg
+[0.555s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.555s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail
+[0.555s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__rosidl_typesupport_fastrtps_cpp.hpp
+[0.555s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[0.555s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/dds_fastrtps
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__rosidl_typesupport_fastrtps_cpp.hpp
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/lib/libdynamic_slam_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__type_support.c
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__type_support.c
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__rosidl_typesupport_introspection_c.h
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__type_support.c
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__rosidl_typesupport_introspection_c.h
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__rosidl_typesupport_introspection_c.h
+[0.556s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/lib/libdynamic_slam_interfaces__rosidl_typesupport_introspection_c.so
+[0.557s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/lib/libdynamic_slam_interfaces__rosidl_typesupport_c.so
+[0.557s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces
+[0.558s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg
+[0.558s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail
+[0.558s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__rosidl_typesupport_introspection_cpp.hpp
+[0.558s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__type_support.cpp
+[0.558s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/multi_object_odometry_path__rosidl_typesupport_introspection_cpp.hpp
+[0.558s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__rosidl_typesupport_introspection_cpp.hpp
+[0.558s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry_path__type_support.cpp
+[0.558s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/msg/detail/object_odometry__type_support.cpp
+[0.559s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/lib/libdynamic_slam_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.561s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/lib/libdynamic_slam_interfaces__rosidl_typesupport_cpp.so
+[0.561s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/environment/pythonpath.sh
+[0.562s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/environment/pythonpath.dsv
+[0.562s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces-1.0.0-py3.10.egg-info
+[0.562s] -- Installing: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[0.563s] -- Installing: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[0.563s] -- Installing: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[0.563s] -- Installing: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[0.563s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces
+[0.564s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/_dynamic_slam_interfaces_s.ep.rosidl_typesupport_c.c
+[0.564s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/dynamic_slam_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.564s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/_dynamic_slam_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.564s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/libdynamic_slam_interfaces__rosidl_generator_py.so
+[0.565s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/dynamic_slam_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.565s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/_dynamic_slam_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.565s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/dynamic_slam_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.565s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg
+[0.565s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg/_object_odometry_s.c
+[0.565s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg/_object_odometry.py
+[0.565s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg/_object_odometry_path.py
+[0.566s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg/_multi_object_odometry_path.py
+[0.566s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg/_multi_object_odometry_path_s.c
+[0.566s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg/_object_odometry_path_s.c
+[0.566s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg/__init__.py
+[0.566s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/__init__.py
+[0.600s] Listing '/home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces'...
+[0.600s] Listing '/home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/msg'...
+[0.606s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/dynamic_slam_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.607s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/dynamic_slam_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.608s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/local/lib/python3.10/dist-packages/dynamic_slam_interfaces/dynamic_slam_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.609s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/lib/libdynamic_slam_interfaces__rosidl_generator_py.so
+[0.609s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/msg/ObjectOdometry.idl
+[0.610s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/msg/ObjectOdometryPath.idl
+[0.610s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/msg/MultiObjectOdometryPath.idl
+[0.610s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/msg/ObjectOdometry.msg
+[0.610s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/msg/ObjectOdometryPath.msg
+[0.611s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/msg/MultiObjectOdometryPath.msg
+[0.611s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces
+[0.611s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces
+[0.612s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/include/dynamic_slam_interfaces/dynamic_slam_interfaces/message_traits.hpp
+[0.612s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamic_slam_interfaces
+[0.612s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamic_slam_interfaces
+[0.612s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/environment/ament_prefix_path.sh
+[0.612s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/environment/ament_prefix_path.dsv
+[0.613s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/environment/path.sh
+[0.613s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/environment/path.dsv
+[0.613s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/local_setup.bash
+[0.613s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/local_setup.sh
+[0.613s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/local_setup.zsh
+[0.613s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/local_setup.dsv
+[0.613s] -- Installing: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/package.dsv
+[0.613s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/ament_index/resource_index/packages/dynamic_slam_interfaces
+[0.614s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_generator_cExport.cmake
+[0.614s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake
+[0.615s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.615s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+[0.616s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_generator_cppExport.cmake
+[0.617s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.617s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+[0.617s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.618s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[0.618s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfaces__rosidl_typesupport_cExport.cmake
+[0.618s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[0.619s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.619s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[0.620s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfaces__rosidl_typesupport_cppExport.cmake
+[0.620s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[0.620s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_generator_pyExport.cmake
+[0.621s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfaces__rosidl_generator_pyExport-relwithdebinfo.cmake
+[0.621s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/export_dynamic_slam_interfacesExport.cmake
+[0.621s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.622s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.622s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.622s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.622s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.622s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.622s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.622s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfacesConfig.cmake
+[0.622s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/cmake/dynamic_slam_interfacesConfig-version.cmake
+[0.623s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynamic_slam_interfaces/share/dynamic_slam_interfaces/package.xml
+[0.625s] Invoked command in '/home/bonnie/DynOSAM/build/dynamic_slam_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bonnie/DynOSAM/build/dynamic_slam_interfaces

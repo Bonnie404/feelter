@@ -1,0 +1,66 @@
+
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/asl_formatter.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/commandline.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/config_context.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/context.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/conversions.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/external_registry.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/factory.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/formatter.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/logger.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/log_to_stdout.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/meta_data.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/namespacing.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/path.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/settings.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/string_utils.cpp.o[K
+[0/59] Building CXX object CMakeFiles/config_utilities.dir/src/substitutions.cpp.o[K
+[1/59] Building CXX object CMakeFiles/config_utilities.dir/src/formatter.cpp.o[K
+[1/59] Building CXX object CMakeFiles/config_utilities.dir/src/substitution_parsers.cpp.o[K
+[2/59] Building CXX object CMakeFiles/config_utilities.dir/src/meta_data.cpp.o[K
+[2/59] Building CXX object CMakeFiles/config_utilities.dir/src/validation.cpp.o[K
+[3/59] Building CXX object CMakeFiles/config_utilities.dir/src/conversions.cpp.o[K
+[3/59] Building CXX object CMakeFiles/config_utilities.dir/src/visitor.cpp.o[K
+[4/59] Building CXX object CMakeFiles/config_utilities.dir/src/context.cpp.o[K
+[4/59] Building CXX object CMakeFiles/config_utilities.dir/src/yaml_parser.cpp.o[K
+[5/59] Building CXX object CMakeFiles/config_utilities.dir/src/namespacing.cpp.o[K
+[5/59] Building CXX object CMakeFiles/config_utilities.dir/src/yaml_utils.cpp.o[K
+[6/59] Building CXX object CMakeFiles/config_utilities.dir/src/config_context.cpp.o[K
+[6/59] Building CXX object CMakeFiles/composite-configs.dir/app/composite_configs.cpp.o[K
+[7/59] Building CXX object CMakeFiles/config_utilities.dir/src/path.cpp.o[K
+[7/59] Building CXX object demos/CMakeFiles/demo_config.dir/demo_config.cpp.o[K
+[8/59] Building CXX object CMakeFiles/config_utilities.dir/src/logger.cpp.o[K
+[8/59] Building CXX object demos/CMakeFiles/demo_factory.dir/demo_factory.cpp.o[K
+[9/59] Building CXX object CMakeFiles/config_utilities.dir/src/log_to_stdout.cpp.o[K
+[9/59] Building CXX object demos/CMakeFiles/demo_inheritance.dir/demo_inheritance.cpp.o[K
+[10/59] Building CXX object CMakeFiles/config_utilities.dir/src/settings.cpp.o[K
+[10/59] Building CXX object test/CMakeFiles/test_config_utilities_plugins.dir/src/external_plugins.cpp.o[K
+[11/59] Building CXX object CMakeFiles/config_utilities.dir/src/substitution_parsers.cpp.o[K
+[11/59] Copy test resources to build directory[K
+[12/59] Building CXX object CMakeFiles/config_utilities.dir/src/validation.cpp.o[K
+[13/59] Copy test resources to build directory[K
+[13/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/main.cpp.o[K
+[13/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/src/default_config.cpp.o[K
+[14/59] Building CXX object CMakeFiles/config_utilities.dir/src/factory.cpp.o[K
+[14/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/src/utils.cpp.o[K
+[15/59] Building CXX object CMakeFiles/config_utilities.dir/src/yaml_parser.cpp.o[K
+[15/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/asl_formatter.cpp.o[K
+[16/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/main.cpp.o[K
+[16/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/commandline.cpp.o[K
+[17/59] Building CXX object CMakeFiles/config_utilities.dir/src/visitor.cpp.o[K
+[17/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/config_arrays.cpp.o[K
+[18/59] Building CXX object CMakeFiles/config_utilities.dir/src/asl_formatter.cpp.o[K
+[18/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/config_maps.cpp.o[K
+[19/59] Building CXX object CMakeFiles/composite-configs.dir/app/composite_configs.cpp.o[K
+[19/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/conversions.cpp.o[K
+[20/59] Building CXX object CMakeFiles/config_utilities.dir/src/external_registry.cpp.o[K
+[20/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/enums.cpp.o[K
+[21/59] Building CXX object CMakeFiles/config_utilities.dir/src/yaml_utils.cpp.o[K
+[21/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/external_registry.cpp.o[K
+[22/59] Building CXX object CMakeFiles/config_utilities.dir/src/substitutions.cpp.o[K
+[22/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/factory.cpp.o[K
+[23/59] Building CXX object CMakeFiles/config_utilities.dir/src/string_utils.cpp.o[K
+[23/59] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/getters.cpp.o[K
+[24/59] Building CXX object CMakeFiles/config_utilities.dir/src/commandline.cpp.o[K
+[24/59] Linking CXX shared library libconfig_utilities.so[K
+ninja: build stopped: interrupted by user.

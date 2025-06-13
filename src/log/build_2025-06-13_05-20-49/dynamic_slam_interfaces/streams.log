@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/bonnie/DynOSAM/src/build/dynamic_slam_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/dynamic_slam_interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/dynamic_slam_interfaces
+[1.431s] -- The C compiler identification is GNU 11.4.0
+[6.690s] -- The CXX compiler identification is GNU 11.4.0
+[8.047s] -- Detecting C compiler ABI info
+[10.211s] -- Detecting C compiler ABI info - done
+[10.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.228s] -- Detecting C compile features
+[10.229s] -- Detecting C compile features - done
+[10.239s] -- Detecting CXX compiler ABI info
+[12.783s] -- Detecting CXX compiler ABI info - done
+[12.802s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.803s] -- Detecting CXX compile features
+[12.808s] -- Detecting CXX compile features - done
+[12.811s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.333s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[13.510s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[14.711s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[14.718s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[14.744s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[14.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.840s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.875s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[15.004s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[15.040s] -- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)
+[15.178s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.186s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)

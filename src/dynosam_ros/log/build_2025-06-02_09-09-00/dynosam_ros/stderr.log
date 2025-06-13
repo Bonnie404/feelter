@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:32 (find_package):
+  By not providing "Finddynosam.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "dynosam", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "dynosam" with any
+  of the following names:
+
+    dynosamConfig.cmake
+    dynosam-config.cmake
+
+  Add the installation prefix of "dynosam" to CMAKE_PREFIX_PATH or set
+  "dynosam_DIR" to a directory containing one of the above files.  If
+  "dynosam" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

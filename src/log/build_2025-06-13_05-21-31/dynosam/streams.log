@@ -1,0 +1,2 @@
+[0.020s] Invoking command in '/home/bonnie/DynOSAM/src/build/dynosam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/dynosam -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/dynosam
+[0.820s] -- The C compiler identification is GNU 11.4.0

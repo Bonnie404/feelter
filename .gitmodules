@@ -1,0 +1,3 @@
+[submodule "src/config_utilities"]
+	path = src/config_utilities
+	url = https://github.com/MIT-SPARK/config_utilities.git

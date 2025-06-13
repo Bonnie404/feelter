@@ -1,0 +1,21 @@
+[0.021s] Invoking command in '/home/bonnie/DynOSAM/src/build/config_utilities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bonnie/DynOSAM/src/build/config_utilities -- -j16 -l16
+[0.031s] 
+[0.031s] [0/35] Linking CXX shared library libconfig_utilities.so[K
+[0.031s] [0/35] Building CXX object demos/CMakeFiles/demo_config.dir/demo_config.cpp.o[K
+[0.032s] [0/35] Building CXX object demos/CMakeFiles/demo_factory.dir/demo_factory.cpp.o[K
+[0.032s] [0/35] Building CXX object demos/CMakeFiles/demo_inheritance.dir/demo_inheritance.cpp.o[K
+[0.032s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities_plugins.dir/src/external_plugins.cpp.o[K
+[0.033s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/src/default_config.cpp.o[K
+[0.033s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/src/utils.cpp.o[K
+[0.034s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/asl_formatter.cpp.o[K
+[0.034s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/commandline.cpp.o[K
+[0.037s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/config_arrays.cpp.o[K
+[0.037s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/config_maps.cpp.o[K
+[0.037s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/conversions.cpp.o[K
+[0.039s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/enums.cpp.o[K
+[0.039s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/external_registry.cpp.o[K
+[0.041s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/factory.cpp.o[K
+[1.076s] [0/35] Building CXX object test/CMakeFiles/test_config_utilities.dir/tests/getters.cpp.o[K
+[1.076s] [1/35] Linking CXX shared library libconfig_utilities.so[K
+[1.850s] [1/35] Linking CXX executable composite-configs[K
+[1.850s] ninja: build stopped: interrupted by user.

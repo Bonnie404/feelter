@@ -1,0 +1,11 @@
+source;share/dynosam_ros/hook/cmake_prefix_path.ps1
+source;share/dynosam_ros/hook/cmake_prefix_path.dsv
+source;share/dynosam_ros/hook/cmake_prefix_path.sh
+source;share/dynosam_ros/hook/ld_library_path_lib.ps1
+source;share/dynosam_ros/hook/ld_library_path_lib.dsv
+source;share/dynosam_ros/hook/ld_library_path_lib.sh
+source;share/dynosam_ros/local_setup.bash
+source;share/dynosam_ros/local_setup.dsv
+source;share/dynosam_ros/local_setup.ps1
+source;share/dynosam_ros/local_setup.sh
+source;share/dynosam_ros/local_setup.zsh

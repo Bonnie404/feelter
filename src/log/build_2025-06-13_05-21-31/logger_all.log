@@ -1,0 +1,268 @@
+[0.237s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja']
+[0.237s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e4922821330>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e49228209a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e49228209a0>>, mixin_verb=('build',))
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.382s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bonnie/DynOSAM/src'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/config_utilities) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'config_utilities/config_utilities' with type 'ros.cmake' and name 'config_utilities'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extension 'ros'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(config_utilities/docs) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(dynamic_slam_interfaces) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'dynamic_slam_interfaces' with type 'ros.ament_cmake' and name 'dynamic_slam_interfaces'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'dynosam' with type 'ros.ament_cmake' and name 'dynosam'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_ros) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'dynosam_ros' with type 'ros.ament_cmake' and name 'dynosam_ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(dynosam_utils) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'dynosam_utils' with type 'ros.ament_cmake' and name 'dynosam_utils'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(rviz_dynamic_slam_plugins) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'rviz_dynamic_slam_plugins' with type 'ros.ament_cmake' and name 'rviz_dynamic_slam_plugins'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(zed-ros2-interfaces) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'zed-ros2-interfaces' with type 'ros.ament_cmake' and name 'zed_msgs'
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.434s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/humble
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja']'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'config_utilities' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'config_utilities' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bonnie/DynOSAM/src/build/config_utilities', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bonnie/DynOSAM/src/install/config_utilities', 'merge_install': False, 'path': '/home/bonnie/DynOSAM/src/config_utilities/config_utilities', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja']'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'dynamic_slam_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'dynamic_slam_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bonnie/DynOSAM/src/build/dynamic_slam_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bonnie/DynOSAM/src/install/dynamic_slam_interfaces', 'merge_install': False, 'path': '/home/bonnie/DynOSAM/src/dynamic_slam_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja']'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'dynosam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'dynosam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bonnie/DynOSAM/src/build/dynosam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bonnie/DynOSAM/src/install/dynosam', 'merge_install': False, 'path': '/home/bonnie/DynOSAM/src/dynosam', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja']'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'zed_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'zed_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bonnie/DynOSAM/src/build/zed_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bonnie/DynOSAM/src/install/zed_msgs', 'merge_install': False, 'path': '/home/bonnie/DynOSAM/src/zed-ros2-interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja']'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'dynosam_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bonnie/DynOSAM/src/build/dynosam_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bonnie/DynOSAM/src/install/dynosam_ros', 'merge_install': False, 'path': '/home/bonnie/DynOSAM/src/dynosam_ros', 'symlink_install': False, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja']'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'dynosam_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'dynosam_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bonnie/DynOSAM/src/build/dynosam_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bonnie/DynOSAM/src/install/dynosam_utils', 'merge_install': False, 'path': '/home/bonnie/DynOSAM/src/dynosam_utils', 'symlink_install': False, 'test_result_base': None}
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja']'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'cmake_target' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'rviz_dynamic_slam_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_dynamic_slam_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bonnie/DynOSAM/src/build/rviz_dynamic_slam_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_BUILD_TYPE=RelWithDebinfo', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bonnie/DynOSAM/src/install/rviz_dynamic_slam_plugins', 'merge_install': False, 'path': '/home/bonnie/DynOSAM/src/rviz_dynamic_slam_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.471s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.473s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bonnie/DynOSAM/src/dynamic_slam_interfaces' with build type 'ament_cmake'
+[0.473s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bonnie/DynOSAM/src/dynamic_slam_interfaces'
+[0.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bonnie/DynOSAM/src/dynosam' with build type 'ament_cmake'
+[0.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bonnie/DynOSAM/src/dynosam'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.483s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/bonnie/DynOSAM/src/config_utilities/config_utilities' with build type 'cmake'
+[0.483s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bonnie/DynOSAM/src/config_utilities/config_utilities'
+[0.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bonnie/DynOSAM/src/zed-ros2-interfaces' with build type 'ament_cmake'
+[0.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bonnie/DynOSAM/src/zed-ros2-interfaces'
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bonnie/DynOSAM/src/build/dynamic_slam_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/dynamic_slam_interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/dynamic_slam_interfaces
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bonnie/DynOSAM/src/build/dynosam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/dynosam -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/dynosam
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bonnie/DynOSAM/src/build/config_utilities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bonnie/DynOSAM/src/build/config_utilities -- -j16 -l16
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bonnie/DynOSAM/src/build/zed_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/zed-ros2-interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/zed_msgs
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bonnie/DynOSAM/src/build/zed_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/zed-ros2-interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/zed_msgs
+[0.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_msgs)
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/bonnie/DynOSAM/src/install/zed_msgs' for CMake module files
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/bonnie/DynOSAM/src/install/zed_msgs' for CMake config files
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/bonnie/DynOSAM/src/install/zed_msgs/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/bonnie/DynOSAM/src/install/zed_msgs/lib/pkgconfig/zed_msgs.pc'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/bonnie/DynOSAM/src/install/zed_msgs/lib/python3.10/site-packages'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/bonnie/DynOSAM/src/install/zed_msgs/bin'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/bonnie/DynOSAM/src/install/zed_msgs/share/zed_msgs/package.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bonnie/DynOSAM/src/install/zed_msgs/share/zed_msgs/package.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/bonnie/DynOSAM/src/install/zed_msgs/share/zed_msgs/package.sh'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/bonnie/DynOSAM/src/install/zed_msgs/share/zed_msgs/package.bash'
+[1.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/bonnie/DynOSAM/src/install/zed_msgs/share/zed_msgs/package.zsh'
+[1.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bonnie/DynOSAM/src/install/zed_msgs/share/colcon-core/packages/zed_msgs)
+[2.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[2.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[2.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[2.351s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.351s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.351s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.445s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.445s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.445s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.445s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.445s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[2.445s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bonnie/DynOSAM/src/install/local_setup.ps1'
+[2.446s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bonnie/DynOSAM/src/install/_local_setup_util_ps1.py'
+[2.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bonnie/DynOSAM/src/install/setup.ps1'
+[2.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bonnie/DynOSAM/src/install/local_setup.sh'
+[2.449s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bonnie/DynOSAM/src/install/_local_setup_util_sh.py'
+[2.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bonnie/DynOSAM/src/install/setup.sh'
+[2.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bonnie/DynOSAM/src/install/local_setup.bash'
+[2.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bonnie/DynOSAM/src/install/setup.bash'
+[2.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bonnie/DynOSAM/src/install/local_setup.zsh'
+[2.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bonnie/DynOSAM/src/install/setup.zsh'

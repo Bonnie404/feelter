@@ -1,0 +1,3 @@
+source;share/dynosam/environment/ament_prefix_path.sh
+source;share/dynosam/environment/library_path.sh
+source;share/dynosam/environment/path.sh

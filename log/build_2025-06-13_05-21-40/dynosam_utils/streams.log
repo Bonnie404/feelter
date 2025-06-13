@@ -1,0 +1,59 @@
+[0.176s] Invoking command in '/home/bonnie/DynOSAM/build/dynosam_utils': AMENT_PREFIX_PATH=/home/bonnie/DynOSAM/install/dynosam:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bonnie/DynOSAM/install/dynosam:/opt/ros/humble LD_LIBRARY_PATH=/home/bonnie/DynOSAM/install/dynosam/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bonnie/DynOSAM/build/dynosam_utils -- -j16 -l16
+[0.195s] 
+[0.215s] [0/2] cd /home/bonnie/DynOSAM/build/dynosam_utils && /usr/bin/cmake -E copy_directory /home/bonnie/DynOSAM/src/dynosam_utils/dynosam_utils /home/bonnie/DynOSAM/build/dynosam_utils/ament_cmake_python/dynosam_utils/dynosam_utils[K
+[0.215s] [1/2] cd /home/bonnie/DynOSAM/build/dynosam_utils && /usr/bin/cmake -E copy_directory /home/bonnie/DynOSAM/src/dynosam_utils/dynosam_utils /home/bonnie/DynOSAM/build/dynosam_utils/ament_cmake_python/dynosam_utils/dynosam_utils[K
+[0.555s] [1/2] cd /home/bonnie/DynOSAM/build/dynosam_utils/ament_cmake_python/dynosam_utils && /usr/bin/python3 setup.py egg_info[K
+[0.555s] [2/2] cd /home/bonnie/DynOSAM/build/dynosam_utils/ament_cmake_python/dynosam_utils && /usr/bin/python3 setup.py egg_info[K
+[0.556s] running egg_info
+[0.556s] writing dynosam_utils.egg-info/PKG-INFO
+[0.556s] writing dependency_links to dynosam_utils.egg-info/dependency_links.txt
+[0.556s] writing top-level names to dynosam_utils.egg-info/top_level.txt
+[0.556s] reading manifest file 'dynosam_utils.egg-info/SOURCES.txt'
+[0.556s] writing manifest file 'dynosam_utils.egg-info/SOURCES.txt'
+[0.558s] Invoked command in '/home/bonnie/DynOSAM/build/dynosam_utils' returned '0': AMENT_PREFIX_PATH=/home/bonnie/DynOSAM/install/dynosam:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bonnie/DynOSAM/install/dynosam:/opt/ros/humble LD_LIBRARY_PATH=/home/bonnie/DynOSAM/install/dynosam/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bonnie/DynOSAM/build/dynosam_utils -- -j16 -l16
+[0.561s] Invoking command in '/home/bonnie/DynOSAM/build/dynosam_utils': AMENT_PREFIX_PATH=/home/bonnie/DynOSAM/install/dynosam:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bonnie/DynOSAM/install/dynosam:/opt/ros/humble LD_LIBRARY_PATH=/home/bonnie/DynOSAM/install/dynosam/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bonnie/DynOSAM/build/dynosam_utils
+[0.574s] -- Install configuration: "RelWithDebinfo"
+[0.575s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/pythonpath.sh
+[0.575s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/pythonpath.dsv
+[0.575s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info
+[0.575s] -- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info/top_level.txt
+[0.575s] -- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.575s] -- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info/PKG-INFO
+[0.576s] -- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.576s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils
+[0.576s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/dynosam_types.py
+[0.577s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation
+[0.577s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/filesystem_utils.py
+[0.577s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/tools.py
+[0.577s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/evaluation_lib.py
+[0.577s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/runner.py
+[0.578s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/formatting_utils.py
+[0.578s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/__init__.py
+[0.578s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core
+[0.578s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core/metrics.py
+[0.578s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core/plotting.py
+[0.578s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core/__init__.py
+[0.578s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/__init__.py
+[0.642s] Listing '/home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils'...
+[0.642s] Listing '/home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation'...
+[0.642s] Listing '/home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core'...
+[0.649s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/lib/dynosam_utils/eval_launch.py
+[0.649s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/lib/dynosam_utils/record_image_topic.py
+[0.650s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/launch
+[0.650s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/launch/record_dataset_videos.launch.py
+[0.650s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/ament_index/resource_index/package_run_dependencies/dynosam_utils
+[0.650s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/ament_index/resource_index/parent_prefix_path/dynosam_utils
+[0.650s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/ament_prefix_path.sh
+[0.651s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/ament_prefix_path.dsv
+[0.651s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/path.sh
+[0.651s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/path.dsv
+[0.651s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/local_setup.bash
+[0.652s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/local_setup.sh
+[0.652s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/local_setup.zsh
+[0.652s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/local_setup.dsv
+[0.652s] -- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/package.dsv
+[0.652s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/ament_index/resource_index/packages/dynosam_utils
+[0.653s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/cmake/dynosam_utilsConfig.cmake
+[0.653s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/cmake/dynosam_utilsConfig-version.cmake
+[0.653s] -- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/package.xml
+[0.657s] Invoked command in '/home/bonnie/DynOSAM/build/dynosam_utils' returned '0': AMENT_PREFIX_PATH=/home/bonnie/DynOSAM/install/dynosam:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bonnie/DynOSAM/install/dynosam:/opt/ros/humble LD_LIBRARY_PATH=/home/bonnie/DynOSAM/install/dynosam/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bonnie/DynOSAM/build/dynosam_utils

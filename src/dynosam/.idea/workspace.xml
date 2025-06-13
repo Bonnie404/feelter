@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd2d5160-3b35-49be-98e3-2d13f7395010" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cmake_commands.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/dynosam/common/ZEDCamera.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/dynosam/common/ZEDCameraConfig.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/dynosam/dataprovider/ZEDDataProvider.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/ZEDCamera.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataprovider/ZEDDataProvider.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ZEDCamera/test_ZED_camera_init.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/cmake/FindGflags.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/cmake/FindGlog.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/cmake/VerifyGtsamConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/cmake/gtest.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/cmake/tests/gtsam_uses_feature.cpp.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/example/dyno_sam.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/Accessor-impl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/Accessor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/BackendDefinitions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/BackendInputPacket.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/BackendModule.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/BackendOutputPacket.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/BackendParams.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/BackendPipeline.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/DynamicPointSymbol.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/FactorGraphTools.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/Formulation-impl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/Formulation.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/RGBDBackendModule.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/rgbd/WorldMotionEstimator.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/backend/rgbd/WorldPoseEstimator.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/Algorithms.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/Camera.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/CameraParams.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/DynamicObjects.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/Exceptions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/Flags.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/GroundTruthPacket.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/ImageContainer-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/ImageContainer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/ImageTypes-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/ImageTypes.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/Map.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/MapNodes-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/MapNodes.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/ModuleBase.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/ModuleFactory.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/PointCloudProcess.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/SensorModels.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/StereoCamera.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/StructuredContainers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/Types.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/byte_tracker/ByteTracker.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/byte_tracker/Detection.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/byte_tracker/KalmanFilter.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/byte_tracker/Lapjv.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/byte_tracker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/byte_tracker/Rect.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/common/byte_tracker/Track.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/ClusterSlamDataProvider.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/DataInterfacePipeline.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/DataProvider.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/DataProviderFactory.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/DataProviderUtils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/DatasetLoader.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/DatasetProvider.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/KittiDataProvider.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/OMDDataProvider.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/ProjectAriaDataProvider.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/dataprovider/VirtualKittiDataProvider.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/factors/LandmarkMotionPoseFactor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/factors/LandmarkMotionTernaryFactor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/factors/LandmarkPoseSmoothingFactor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/factors/ObjectKinematicFactor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/factors/Pose3FlowProjectionFactor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/Frontend-Definitions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/FrontendInputPacket.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/FrontendModule.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/FrontendOutputPacket.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/FrontendParams.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/FrontendPipeline.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/RGBDInstance-Definitions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/RGBDInstanceFrontendModule.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/anms/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/anms/NonMaximumSuppression.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/anms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/anms/anms/anms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/anms/anms/nanoflann.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/anms/anms/range-tree/lrtypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/anms/anms/range-tree/ranget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/imu/Imu-Definitions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/imu/ImuMeasurements.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/imu/ThreadSafeImuBuffer-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/imu/ThreadSafeImuBuffer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/Feature.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/FeatureDetector.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/FeatureTracker.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/FeatureTrackerBase.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/Frame-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/Frame.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/MotionSolver-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/MotionSolver.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/ORBextractor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/ObjectTracker.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/OccupancyGrid2D.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/StaticFeatureTracker.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/StereoMatcher.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/StereoMatchingParams.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/TrackerParams.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/UndistortRectifier.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/Vision-Definitions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/VisionTools-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/frontend/vision/VisionTools.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/logger/Logger.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/PipelineBase-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/PipelineBase.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/PipelineManager.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/PipelineModuleProcessor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/PipelineParams.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/PipelinePayload.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/PipelineSpinner.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/ThreadSafeQueue.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/ThreadSafeTemporalBuffer-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/pipeline/ThreadSafeTemporalBuffer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Accumulator.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/CsvParser.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/GtsamUtils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Histogram.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/JsonUtils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Macros.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Metrics.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Numerical.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/OpenCVUtils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/SafeCast.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Spinner.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Statistics.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Timing.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/TimingStats.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Tuple.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/Variant.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/utils/YamlParser.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/visualizer/Colour.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/visualizer/ColourMap.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/visualizer/Display.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/visualizer/OpenCVFrontendDisplay.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/visualizer/Visualizer-Definitions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/include/dynosam/visualizer/VisualizerPipelines.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/params/CameraParams.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/params/DatasetParams.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/params/FrontendParams.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/params/PipelineParams.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/params/backend.flags" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/params/frontend.flags" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/params/pipeline.flags" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/BackendDefinitions.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/BackendModule.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/BackendParams.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/BackendPipeline.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/DynamicPointSymbol.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/FactorGraphTools.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/RGBDBackendModule.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/rgbd/WorldMotionEstimator.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/backend/rgbd/WorldPoseEstimator.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/Algorithms.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/Camera.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/CameraParams.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/DynamicObjects.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/GroundTruthPacket.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/ImageContainer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/ImageTypes.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/Map.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/MapNodes.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/ModuleFactory.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/PointCloudProcess.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/StereoCamera.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/StructuredContainers.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/Types.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/byte_tracker/ByteTracker.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/byte_tracker/Detection.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/byte_tracker/KalmanFilter.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/byte_tracker/Lapjv.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/byte_tracker/Rect.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/common/byte_tracker/Track.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/ClusterSlamDataProvider.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/DataInterfacePipeline.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/DataProvider.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/DataProviderFactory.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/DataProviderUtils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/DatasetLoader.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/DatasetProvider.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/OMDDataProvider.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/ProjectAriaDataProvider.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/dataprovider/VirtualKittidataProvider.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/factors/LandmarkMotionPoseFactor.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/factors/LandmarkMotionTernaryFactor.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/factors/LandmarkPoseSmoothingFactor.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/factors/ObjectKinematicFactor.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/factors/Pose3FlowProjectionFactor.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/Frontend-Definitions.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/FrontendModule.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/FrontendParams.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/FrontendPipeline.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/RGBDInstance-Definitions.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/RGBDInstanceFrontendModule.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/anms/NonMaximumSupression.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/anms/anms.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/imu/ThreadSafeImuBuffer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/Feature.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/FeatureDetector.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/FeatureTracker.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/FeatureTrackerBase.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/Frame.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/MotionSolver.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/ORBextractor.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/ObjectTracker.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/StaticFeatureTracker.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/StereoMatcher.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/TrackerParams.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/UndistortRectifier.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/frontend/vision/VisionTools.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/logger/Logger.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/pipeline/Pipeline-Definitions.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/pipeline/PipelineBase.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/pipeline/PipelineManager.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/pipeline/PipelineParams.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/pipeline/PipelineSpinner.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/CsvParser.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/GtsamUtils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/Histogram.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/JsonUtils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/Metrics.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/OpenCVUtils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/Spinner.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/Statistics.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/utils/TimingStats.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/visualizer/ColourMap.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/visualizer/OpenCVFrontendDisplay.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/visualizer/Visualizer-Definitions.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/src/visualizer/VisualizerPipelines.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/data/sensor.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/data/tracking_params.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/internal/helpers.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/internal/simulator.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/internal/simulator.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/internal/tmp_file.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/internal/tmp_file.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_algorithms.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_backend_structures.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_camera.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_camera_params.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_code_concepts.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_csv.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_dataset_provider.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_dynamic_point_symbol.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_factors.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_histogram.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_landmark_quadric_factor.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_main.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_map.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_numerical.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_params.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_pipelines.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_rgbd_backend.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_structured_containers.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_threadsafe_imu_buffer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_tools.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_triangulation.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_types.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/test_viz.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/thread_safe_queue_tests.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam/test/thread_safe_temporal_buffer_test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/dynosam_ros/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/dynosam_ros/launch_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/DataProviderRos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/Display-Definitions.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/OnlineDataProviderRos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/PipelineRos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/RosUtils-inl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/RosUtils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/Utils.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/adaptors/CameraParamsAdaptor.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/DisplaysCommon.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/DisplaysImpl.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/dynamic_slam_displays/BackendDSDRos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/dynamic_slam_displays/DSDCommonRos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/dynamic_slam_displays/FrontendDSDRos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/dynamic_slam_displays/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/inbuilt_displays/BackendInbuiltDisplayRos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/inbuilt_displays/FrontendInbuiltDisplayRos.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/inbuilt_displays/InbuiltDisplayCommon.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/include/dynosam_ros/displays/inbuilt_displays/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/launch/dyno_sam_experiments_launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/launch/dyno_sam_launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/launch/dyno_sam_online_launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/nodes/backend_experiments_node.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/nodes/dataset_node.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/nodes/dynosam_node.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/rviz/rivz.rviz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/rviz/rviz_dsd.rviz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/scripts/run_dynosam_gtest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/DataProviderRos.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/OnlineDataProviderRos.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/PipelineRos.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/RosUtils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/Utils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/displays/DisplaysCommon.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/displays/dynamic_slam_displays/BackendDSDRos.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/displays/dynamic_slam_displays/DSDCommonRos.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/displays/dynamic_slam_displays/FrontendDSDRos.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/displays/inbuilt_displays/BackendInbuiltDisplayRos.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/displays/inbuilt_displays/FrontendInbuiltDisplayRos.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/src/displays/inbuilt_displays/InbuiltDisplayCommon.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/test/test_adaptors.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/test/test_main.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/test/test_online_dataprovider_ros.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_ros/test/test_ros_utils.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/TRO_2024_experiments.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/dynosam_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/core/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/core/plotting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/evaluation_lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/filesystem_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/formatting_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/runner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/dynosam_utils/evaluation/tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/launch/record_dataset_videos.launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/misc/InstanceVizReader.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/misc/KittiSemaniticToMotion.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/misc/depth_to_pointcloud_node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/misc/instance_viz_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/misc/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/misc/test_load_projected_mask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/scripts/eval_launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/scripts/record_image_topic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/make_stats_over_all_runs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/mvo_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/plot_3d_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/plot_per_frame_motion_error.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/run_all_frontends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/run_backends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/run_eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/run_experiments_tro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dynosam_utils/src/sliding_window_vs_batch_error_plot.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2xgEXnCfZuZ9HRBUwSkl409pPt3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/bonnie/DynOSAM/build/compile_commands.json",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd2d5160-3b35-49be-98e3-2d13f7395010" name="Changes" comment="" />
+      <created>1748351361124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748351361124</updated>
+      <workItem from="1748351364107" duration="225000" />
+      <workItem from="1748354194746" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

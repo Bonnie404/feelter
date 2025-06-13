@@ -1,0 +1,21 @@
+[0.021s] Invoking command in '/home/bonnie/DynOSAM/src/build/zed_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/zed-ros2-interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/zed_msgs
+[0.038s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.388s] Traceback (most recent call last):
+[0.388s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.388s]     from catkin_pkg.package import parse_package_string
+[0.389s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.405s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.405s]   execute_process(/home/linuxbrew/.linuxbrew/bin/python3
+[0.405s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.405s]   /home/bonnie/DynOSAM/src/zed-ros2-interfaces/package.xml
+[0.405s]   /home/bonnie/DynOSAM/src/build/zed_msgs/ament_cmake_core/package.cmake)
+[0.405s]   returned error code 1
+[0.405s] Call Stack (most recent call first):
+[0.405s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.405s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:42 (ament_package_xml)
+[0.406s]   CMakeLists.txt:61 (ament_auto_find_build_dependencies)
+[0.406s] 
+[0.406s] [0m
+[0.407s] -- Configuring incomplete, errors occurred!
+[0.407s] See also "/home/bonnie/DynOSAM/src/build/zed_msgs/CMakeFiles/CMakeOutput.log".
+[0.440s] Invoked command in '/home/bonnie/DynOSAM/src/build/zed_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bonnie/DynOSAM/src/zed-ros2-interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebinfo -G Ninja -DCMAKE_INSTALL_PREFIX=/home/bonnie/DynOSAM/src/install/zed_msgs

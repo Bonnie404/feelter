@@ -1,0 +1,1 @@
+Invoking command in '/home/bonnie/DynOSAM/src/build/config_utilities': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bonnie/DynOSAM/src/build/config_utilities -- -j16 -l16

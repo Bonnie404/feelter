@@ -1,0 +1,55 @@
+
+[0/2] cd /home/bonnie/DynOSAM/build/dynosam_utils && /usr/bin/cmake -E copy_directory /home/bonnie/DynOSAM/src/dynosam_utils/dynosam_utils /home/bonnie/DynOSAM/build/dynosam_utils/ament_cmake_python/dynosam_utils/dynosam_utils[K
+[1/2] cd /home/bonnie/DynOSAM/build/dynosam_utils && /usr/bin/cmake -E copy_directory /home/bonnie/DynOSAM/src/dynosam_utils/dynosam_utils /home/bonnie/DynOSAM/build/dynosam_utils/ament_cmake_python/dynosam_utils/dynosam_utils[K
+[1/2] cd /home/bonnie/DynOSAM/build/dynosam_utils/ament_cmake_python/dynosam_utils && /usr/bin/python3 setup.py egg_info[K
+[2/2] cd /home/bonnie/DynOSAM/build/dynosam_utils/ament_cmake_python/dynosam_utils && /usr/bin/python3 setup.py egg_info[K
+running egg_info
+writing dynosam_utils.egg-info/PKG-INFO
+writing dependency_links to dynosam_utils.egg-info/dependency_links.txt
+writing top-level names to dynosam_utils.egg-info/top_level.txt
+reading manifest file 'dynosam_utils.egg-info/SOURCES.txt'
+writing manifest file 'dynosam_utils.egg-info/SOURCES.txt'
+-- Install configuration: "RelWithDebinfo"
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/pythonpath.sh
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/pythonpath.dsv
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info
+-- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info/top_level.txt
+-- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/dynosam_types.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/filesystem_utils.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/tools.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/evaluation_lib.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/runner.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/formatting_utils.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/__init__.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core/metrics.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core/plotting.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core/__init__.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/__init__.py
+Listing '/home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils'...
+Listing '/home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation'...
+Listing '/home/bonnie/DynOSAM/install/dynosam_utils/local/lib/python3.10/dist-packages/dynosam_utils/evaluation/core'...
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/lib/dynosam_utils/eval_launch.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/lib/dynosam_utils/record_image_topic.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/launch
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/launch/record_dataset_videos.launch.py
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/ament_index/resource_index/package_run_dependencies/dynosam_utils
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/ament_index/resource_index/parent_prefix_path/dynosam_utils
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/path.sh
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/environment/path.dsv
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/local_setup.bash
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/local_setup.sh
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/local_setup.zsh
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/local_setup.dsv
+-- Installing: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/package.dsv
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/ament_index/resource_index/packages/dynosam_utils
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/cmake/dynosam_utilsConfig.cmake
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/cmake/dynosam_utilsConfig-version.cmake
+-- Up-to-date: /home/bonnie/DynOSAM/install/dynosam_utils/share/dynosam_utils/package.xml

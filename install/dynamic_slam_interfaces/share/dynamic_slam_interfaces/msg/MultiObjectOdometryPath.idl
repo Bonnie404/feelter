@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynamic_slam_interfaces/msg/MultiObjectOdometryPath.msg
+// generated code does not contain a copyright notice
+
+#include "dynamic_slam_interfaces/msg/ObjectOdometryPath.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dynamic_slam_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Interface representing multiple object paths over time" "\n"
+      "header should be the current ROS time")
+    struct MultiObjectOdometryPath {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "List of object odometry paths, one per object path segment")
+      sequence<dynamic_slam_interfaces::msg::ObjectOdometryPath> paths;
+    };
+  };
+};
