@@ -1,4 +1,0 @@
-Invoking command in '/home/bonnie/DynOSAM/build/dynosam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bonnie/DynOSAM/build/dynosam -- -j16 -l16
-Invoked command in '/home/bonnie/DynOSAM/build/dynosam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bonnie/DynOSAM/build/dynosam -- -j16 -l16
-Invoking command in '/home/bonnie/DynOSAM/build/dynosam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bonnie/DynOSAM/build/dynosam
-Invoked command in '/home/bonnie/DynOSAM/build/dynosam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bonnie/DynOSAM/build/dynosam
